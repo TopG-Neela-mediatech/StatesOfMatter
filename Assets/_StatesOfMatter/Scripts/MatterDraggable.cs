@@ -1,8 +1,23 @@
+using TMKOC.StatesOfMatter;
+using TMPro;
 using UnityEngine;
 
 public class MatterDraggable : AdvancedDraggable
 {
-    public Category correctCategory;
+    [Space]
+    [Header("Item Info")]
+    [SerializeField] private string ItemName;
+    [SerializeField] private StateType correctCategory;
+    [SerializeField] private UnityEngine.UI.Image image;
+    [SerializeField] private TextMeshProUGUI textBox;
+
+    public void SetInfo(ItemData itemData)
+    {
+        textBox.SetText(itemData.ItemName);
+        correctCategory = itemData.StateType;
+        if (itemData.Sprite)
+            image.sprite = itemData.Sprite;
+    }
 
     protected override bool IsValidDropTarget(GameObject target)
     {

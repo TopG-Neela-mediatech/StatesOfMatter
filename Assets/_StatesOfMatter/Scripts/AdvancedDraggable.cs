@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System;
 using DG.Tweening;
+using TMKOC.StatesOfMatter;
 
 public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -69,8 +70,7 @@ public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler,
             OnDragging?.Invoke(this, transform.position);
         }
     }
-
-
+    
     public void OnEndDrag(PointerEventData eventData)
     {
         if (IsDraggable)
@@ -83,9 +83,17 @@ public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler,
             OnDragEnd?.Invoke(this, dropTarget);
 
             // If no target or wrong target, reset
-            if (resetIfNotDroppedCorrectly && !IsValidDropTarget(dropTarget))
+
+            bool droppedCorrect = IsValidDropTarget(dropTarget);
+
+            if (resetIfNotDroppedCorrectly && !droppedCorrect)
             {
                 ResetToInitialPosition();
+            }
+
+            if(droppedCorrect)
+            {
+                GameManager.Instance.OnCorrectDrag();
             }
         }
     }
@@ -108,9 +116,4 @@ public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler,
 
         IsDraggable = true;
     }
-
-    //public void MoveToLocalPosition(Vector3 endPosition)
-    //{
-    //    transform.DOLocalMove(endPosition, moveTime);
-    //}
 }

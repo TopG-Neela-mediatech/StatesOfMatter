@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum Category { Solid, Liquid, Gas }
+public enum StateType { Solid, Liquid, Gas }
 
 public class DropZone : MonoBehaviour
 {
-    public Category zoneCategory;
+    public StateType zoneCategory;
 
     [Header("Placement Mode")]
     [Tooltip("If true, will use explicit slots as children of the grid.")]

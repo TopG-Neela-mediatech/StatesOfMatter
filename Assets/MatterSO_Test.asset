@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17ed3eec35795cc45bbed835ee92a081, type: 3}
+  m_Name: MatterSO_Test
+  m_EditorClassIdentifier: 
+  ItemList:
+  - ItemName: Ice Cube
+    StateType: 0
+    Sprite: {fileID: 0}
+  - ItemName: Rock
+    StateType: 0
+    Sprite: {fileID: 0}
+  - ItemName: Wooden Block
+    StateType: 0
+    Sprite: {fileID: 0}
+  - ItemName: Metal Spoon
+    StateType: 0
+    Sprite: {fileID: 0}
+  - ItemName: Brick
+    StateType: 0
+    Sprite: {fileID: 0}
+  - ItemName: Water
+    StateType: 1
+    Sprite: {fileID: 0}
+  - ItemName: Milk
+    StateType: 1
+    Sprite: {fileID: 0}
+  - ItemName: Juice
+    StateType: 1
+    Sprite: {fileID: 0}
+  - ItemName: Oil
+    StateType: 1
+    Sprite: {fileID: 0}
+  - ItemName: Honey
+    StateType: 1
+    Sprite: {fileID: 0}
+  - ItemName: Steam
+    StateType: 2
+    Sprite: {fileID: 0}
+  - ItemName: Oxygen
+    StateType: 2
+    Sprite: {fileID: 0}
+  - ItemName: Helium
+    StateType: 2
+    Sprite: {fileID: 0}
+  - ItemName: Carbon Dioxide
+    StateType: 2
+    Sprite: {fileID: 0}
+  - ItemName: Smoke
+    StateType: 2
+    Sprite: {fileID: 0}
