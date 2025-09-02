@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,7 +41,7 @@ public class DropZone : MonoBehaviour
                 if (slot.childCount == 0) // empty slot
                 {
                     draggable.transform.SetParent(slot, false);
-                    draggable.transform.MoveToLocalPosition(.5f);
+                    draggable.transform.DOLocalMove(Vector3.zero, .5f);
                     return true;
                 }
             }
@@ -68,7 +69,7 @@ public class DropZone : MonoBehaviour
             draggable.transform.position = startPos;
 
             // tween into place
-            draggable.transform.MoveToPosition(.5f, endPos);
+            draggable.transform.DOMove(endPos, .5f);
 
             return true;
         }

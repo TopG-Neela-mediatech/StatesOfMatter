@@ -112,7 +112,7 @@ public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler,
     {
         transform.SetParent(_initialParent);
 
-        transform.MoveToPosition(moveTime, _initialPosition);
+        transform.DOMove(_initialPosition, moveTime);
 
         IsDraggable = true;
     }

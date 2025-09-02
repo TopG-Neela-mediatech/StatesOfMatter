@@ -29,7 +29,7 @@ namespace TMKOC.StatesOfMatter
             OnRequestNextItem?.Invoke(item);
 
             currentIndex++;
-        }
+        }   
 
         // This will be called when a correct drag happens
         public void OnCorrectDrag()
