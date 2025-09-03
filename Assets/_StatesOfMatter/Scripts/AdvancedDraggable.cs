@@ -2,11 +2,17 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System;
 using DG.Tweening;
-using TMKOC.StatesOfMatter;
+using UnityEngine.UI;
 
 namespace TMKOC.StatesOfMatter
 {
-
+    public enum DropType
+    {
+        None,
+        Correct,
+        Incorrect,
+        OutsideDropZone,
+    }
 
     public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
@@ -16,9 +22,9 @@ namespace TMKOC.StatesOfMatter
         private CanvasGroup _canvasGroup;
 
         // Events (you can subscribe externally)
-        public event Action<AdvancedDraggable> OnDragStart;
-        public event Action<AdvancedDraggable, Vector3> OnDragging;
-        public event Action<AdvancedDraggable, GameObject> OnDragEnd;
+        public static event Action<AdvancedDraggable> OnDragStart;
+        public static event Action<AdvancedDraggable, Vector3> OnDragging;
+        public static event Action<AdvancedDraggable, GameObject> OnDragEnd;
 
         // Optional flag if you want snapping / reset logic handled internally
         [SerializeField] private bool resetIfNotDroppedCorrectly = true;
@@ -83,42 +89,68 @@ namespace TMKOC.StatesOfMatter
                 IsDraggable = false;
 
                 GameObject dropTarget = eventData.pointerEnter; // Object under pointer (if any)
-
                 OnDragEnd?.Invoke(this, dropTarget);
+                DropType dropType = IsValidDropTarget(dropTarget);
+                DropResult(dropType);
+            }
+        }
 
-                // If no target or wrong target, reset
-
-                bool droppedCorrect = IsValidDropTarget(dropTarget);
-
-                if (resetIfNotDroppedCorrectly && !droppedCorrect)
-                {
-                    ResetToInitialPosition();
-                }
-
-                if (droppedCorrect)
-                {
+        private void DropResult(DropType dropType)
+        {
+            switch (dropType)
+            {
+                case DropType.Correct:
                     GameManager.Instance.OnCorrectDrag();
-                }
+                    break;
+                case DropType.Incorrect:
+                    GameManager.Instance.OnIncorrectDrag();
+                    KillDraggable();
+                    break;
+                case DropType.OutsideDropZone:
+                    Reset();
+                    break;
             }
         }
 
         /// <summary>
+        /// Incomplete Base function
         /// Override this method for custom drop validation.
         /// </summary>
-        protected virtual bool IsValidDropTarget(GameObject target)
+        protected virtual DropType IsValidDropTarget(GameObject target)
         {
             // Example: Only accept colliders with tag "DropZone"
-            if (target == null) return false;
-            return target.CompareTag("DropZone");
+            if (target == null) return DropType.OutsideDropZone;
+
+            // 
+            return DropType.None;
         }
 
         public void ResetToInitialPosition()
         {
-            transform.SetParent(_initialParent);
-
             transform.DOMove(_initialPosition, moveTime);
+        }
 
+        public void Reset()
+        {
+            transform.SetParent(_initialParent);
             IsDraggable = true;
+
+            if (resetIfNotDroppedCorrectly)
+            {
+                ResetToInitialPosition();
+            }
+        }
+
+        public void KillDraggable()
+        {
+            Image image = GetComponent<Image>();
+            if (image != null)
+            {
+                image.DOColor(Color.clear, 0.75f).OnComplete(() =>
+                {
+                    Destroy(this.gameObject);
+                });
+            }
         }
     }
 }

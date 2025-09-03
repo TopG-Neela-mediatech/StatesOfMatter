@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,8 +13,12 @@ public class DropZone : MonoBehaviour
     [Tooltip("If true, will use explicit slots as children of the grid.")]
     [SerializeField] private bool useSlots = false;
 
+    [SerializeField] private int totalCount = 9;
+
     [Tooltip("Explicit slots inside this zone (only used if UseSlots = true)")]
     [SerializeField] private RectTransform[] setPoints;
+
+    private int currentCount;
 
     private GridLayoutGroup _grid;
 
@@ -51,6 +56,14 @@ public class DropZone : MonoBehaviour
         }
         else
         {
+            currentCount++;
+            if (currentCount >= totalCount)
+            {
+                // Can end game here
+
+            }
+
+
             // AUTO-GRID MODE
             Vector3 startPos = draggable.transform.position;
 

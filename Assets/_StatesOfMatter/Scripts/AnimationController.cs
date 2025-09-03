@@ -9,9 +9,13 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private Vector3 moveInPos, moveOutPos;
         [SerializeField] private float moveTweenTime;
 
-        private void Start()
+        private void OnEnable()
         {
-            MoveIn(GameManager.Instance.RequestNextItem);
+            GameManager.OnGameStart += MoveInAndSpawn;
+            AdvancedDraggable.OnDragStart += MoveOut;
+
+            GameManager.OnCorrectDrop += MoveInAndSpawn;
+            GameManager.OnIncorrectDrop += MoveInAndSpawn;
         }
 
         [Button]
@@ -26,9 +30,23 @@ namespace TMKOC.StatesOfMatter
                 callback?.Invoke();
             });
         }
+        public void MoveInAndSpawn()
+        {
+            transform.DOLocalMove(moveInPos, moveTweenTime).OnComplete(() =>
+            {
+                GameManager.Instance.RequestRandomItem();
+            });
+        }
+
+
 
         [Button]
         public void MoveOut()
+        {
+            transform.DOLocalMove(moveOutPos, moveTweenTime);
+        }
+
+        private void MoveOut(AdvancedDraggable draggable)
         {
             transform.DOLocalMove(moveOutPos, moveTweenTime);
         }

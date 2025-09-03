@@ -19,27 +19,33 @@ public class MatterDraggable : AdvancedDraggable
             image.sprite = itemData.Sprite;
     }
 
-    protected override bool IsValidDropTarget(GameObject target)
+    protected override DropType IsValidDropTarget(GameObject target)
     {
         if (target == null)
         {
-            return false;
+            return DropType.OutsideDropZone;
         }
 
         DropZone zone = target.GetComponent<DropZone>() ?? target.GetComponentInParent<DropZone>();
         if (zone == null)
         {
             Debug.Log($"IsValidDropTarget: {target.name} has NO DropZone component");
-            return false;
+            return DropType.OutsideDropZone;
         }
 
         if (zone.zoneCategory == correctCategory)
         {
             bool placed = zone.PlaceDraggable(this);
-            return placed;
+            if(placed)
+            {
+                // out of space in drop grid... 
+                // can end game here
+
+            }
+            return DropType.Correct;
         }
 
-        return false;
+        return DropType.Incorrect;
     }
 
 }
