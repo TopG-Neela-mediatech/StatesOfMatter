@@ -16,7 +16,7 @@ namespace TMKOC.StatesOfMatter
             RequestNextItem();
         }
 
-        private void RequestNextItem()
+        public void RequestNextItem()
         {
             if (currentIndex >= matterSO.Length)
             {
