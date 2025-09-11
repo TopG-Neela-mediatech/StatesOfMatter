@@ -20,14 +20,14 @@ namespace TMKOC.StatesOfMatter
         private Transform _initialParent;
         private Canvas _parentCanvas;
         private CanvasGroup _canvasGroup;
+        
+        private bool resetIfNotDroppedCorrectly = true;
 
         // Events (you can subscribe externally)
         public static event Action<AdvancedDraggable> OnDragStart;
         public static event Action<AdvancedDraggable, Vector3> OnDragging;
         public static event Action<AdvancedDraggable, GameObject> OnDragEnd;
 
-        // Optional flag if you want snapping / reset logic handled internally
-        [SerializeField] private bool resetIfNotDroppedCorrectly = true;
         [SerializeField] protected bool IsDraggable;
         [SerializeField] protected float moveTime = 0.75f;
 
@@ -57,6 +57,10 @@ namespace TMKOC.StatesOfMatter
 
                 // Bring to top layer so it doesn’t hide under UI
                 transform.SetAsLastSibling();
+
+                Vector3 maxScale = 1.5f * Vector3.one;
+
+                transform.DOScale(maxScale, 0.25f);
 
                 OnDragStart?.Invoke(this);
             }
@@ -89,6 +93,9 @@ namespace TMKOC.StatesOfMatter
                 IsDraggable = false;
 
                 GameObject dropTarget = eventData.pointerEnter; // Object under pointer (if any)
+
+                transform.DOScale(0.85f, 0.5f);
+
                 OnDragEnd?.Invoke(this, dropTarget);
                 DropType dropType = IsValidDropTarget(dropTarget);
                 DropResult(dropType);
@@ -146,11 +153,18 @@ namespace TMKOC.StatesOfMatter
             Image image = GetComponent<Image>();
             if (image != null)
             {
-                image.DOColor(Color.clear, 0.75f).OnComplete(() =>
-                {
-                    Destroy(this.gameObject);
-                });
+                image.DOColor(Color.clear, 0.75f);
             }
+
+            transform.DOScale(Vector3.zero, 0.75f).OnComplete(() =>
+            {
+                Destroy(this.gameObject);
+            });
+        }
+
+        public void SetResetType(bool toggle)
+        {
+            resetIfNotDroppedCorrectly = toggle;
         }
     }
 }

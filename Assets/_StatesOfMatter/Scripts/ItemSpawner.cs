@@ -6,11 +6,12 @@ namespace TMKOC.StatesOfMatter
     {
         [SerializeField] private MatterDraggable itemPrefab;
         [SerializeField] private Transform spawnParent;
-       
+
+        private MatterDraggable currentSpawnedItem;
+
         private void OnEnable()
         {
             GameManager.OnRequestNextItem += SpawnNextItem;
-
         }
 
         private void OnDisable()
@@ -20,9 +21,12 @@ namespace TMKOC.StatesOfMatter
 
         public void SpawnNextItem(ItemData data)
         {
-            MatterDraggable newItem = Instantiate(itemPrefab, spawnParent);
+            currentSpawnedItem = Instantiate(itemPrefab, spawnParent);
 
-            newItem.SetInfo(data);
+            currentSpawnedItem.SetResetType(false);
+            currentSpawnedItem.SetInfo(data);
+            currentSpawnedItem.ToggleTextObj(false);
         }
+
     }
 }

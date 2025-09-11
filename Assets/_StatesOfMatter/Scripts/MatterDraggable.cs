@@ -10,6 +10,7 @@ public class MatterDraggable : AdvancedDraggable
     [SerializeField] private StateType correctCategory;
     [SerializeField] private UnityEngine.UI.Image image;
     [SerializeField] private TextMeshProUGUI textBox;
+    [SerializeField] private GameObject textObj;
 
     public void SetInfo(ItemData itemData)
     {
@@ -17,6 +18,11 @@ public class MatterDraggable : AdvancedDraggable
         correctCategory = itemData.StateType;
         if (itemData.Sprite)
             image.sprite = itemData.Sprite;
+    }
+
+    public void ToggleTextObj(bool toggle)
+    {
+        textObj.SetActive(toggle);
     }
 
     protected override DropType IsValidDropTarget(GameObject target)
@@ -33,10 +39,11 @@ public class MatterDraggable : AdvancedDraggable
             return DropType.OutsideDropZone;
         }
 
-        if (zone.zoneCategory == correctCategory)
+        if (zone.ZoneType == correctCategory)
         {
             bool placed = zone.PlaceDraggable(this);
-            if(placed)
+
+            if (placed)
             {
                 // out of space in drop grid... 
                 // can end game here

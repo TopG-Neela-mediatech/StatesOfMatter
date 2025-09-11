@@ -1,4 +1,5 @@
 using DG.Tweening;
+using TMKOC.StatesOfMatter;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,20 +8,23 @@ public enum StateType { Solid, Liquid, Gas }
 
 public class DropZone : MonoBehaviour
 {
-    public StateType zoneCategory;
+    public static event System.Action DropZoneFull;
+
+    [SerializeField] private StateType zoneCategory;
 
     [Header("Placement Mode")]
     [Tooltip("If true, will use explicit slots as children of the grid.")]
     [SerializeField] private bool useSlots = false;
 
-    [SerializeField] private int totalCount = 9;
+    [SerializeField] private int totalCount = 5;
 
     [Tooltip("Explicit slots inside this zone (only used if UseSlots = true)")]
     [SerializeField] private RectTransform[] setPoints;
 
-    private int currentCount;
-
+    private int currentIndex = 0;
     private GridLayoutGroup _grid;
+
+    public StateType ZoneType { get { return zoneCategory; } }
 
     private void Awake()
     {
@@ -31,6 +35,17 @@ public class DropZone : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        GameManager.OnGameRestart += ResetBoard;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.OnGameRestart -= ResetBoard;
+    }
+
+
     /// <summary>
     /// Places draggable either in the next free slot, or appends to the grid.
     /// Returns true if placed successfully.
@@ -39,31 +54,24 @@ public class DropZone : MonoBehaviour
     {
         if (useSlots && setPoints != null && setPoints.Length > 0)
         {
-            // SLOT-BASED MODE
-            for (int i = 0; i < setPoints.Length; i++)
+            Transform slot = setPoints[currentIndex++];
+            if (slot.childCount == 0)
             {
-                Transform slot = setPoints[i];
-                if (slot.childCount == 0) // empty slot
+                draggable.transform.SetParent(slot, true);
+                draggable.transform.DOLocalMove(Vector3.zero, .5f).OnComplete(() =>
                 {
-                    draggable.transform.SetParent(slot, false);
-                    draggable.transform.DOLocalMove(Vector3.zero, .5f);
-                    return true;
-                }
+                    draggable.ToggleTextObj(true);
+                });
+                CheckSlotCount();
+                return true;
             }
+
 
             Debug.LogWarning($"No empty slot available in {zoneCategory} zone!");
             return false;
         }
         else
         {
-            currentCount++;
-            if (currentCount >= totalCount)
-            {
-                // Can end game here
-
-            }
-
-
             // AUTO-GRID MODE
             Vector3 startPos = draggable.transform.position;
 
@@ -72,7 +80,6 @@ public class DropZone : MonoBehaviour
             // snap to grid
             draggable.transform.localPosition = Vector3.zero;
 
-            // 
             Canvas.ForceUpdateCanvases();
 
             // capture snapped world position
@@ -82,10 +89,43 @@ public class DropZone : MonoBehaviour
             draggable.transform.position = startPos;
 
             // tween into place
-            draggable.transform.DOMove(endPos, .5f);
+            draggable.transform.DOMove(endPos, .5f).OnComplete(() =>
+            {
+                draggable.ToggleTextObj(true);
+            });
 
             return true;
         }
     }
 
+    private void CheckSlotCount()
+    {
+        Debug.Log("Current index: " + currentIndex);
+        Debug.Log("setPt Len-1 for 0 indexing: " + (setPoints.Length - 1));
+
+        if (currentIndex >= setPoints.Length)
+        {
+            // full hogaya slots
+            // can end game here
+            DropZoneFull?.Invoke();
+        }
+    }
+
+    private void ResetBoard()
+    {
+        currentIndex = 0;
+        ClearSetPoints();
+    }
+
+    private void ClearSetPoints()
+    {
+        for (int i = 0; i < setPoints.Length; i++)
+        {
+            if(setPoints[i] != null && setPoints[i].childCount > 0)
+            {
+                Transform go = setPoints[i].GetChild(0);
+                Destroy(go.gameObject);
+            }
+        }
+    }
 }

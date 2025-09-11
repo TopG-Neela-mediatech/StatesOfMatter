@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ChalkLine_Vertical_0: 5581614487037021403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
