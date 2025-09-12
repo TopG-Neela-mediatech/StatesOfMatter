@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0da6e7a6b15df40aa1a7eb411d77ce, type: 3}
+  m_Name: TutorialDataList
+  m_EditorClassIdentifier: 
+  TutorialList:
+  - Heading: 'What is Matter? '
+    PrimaryText1: "<b>Everything around us is made of matter!</b>\r"
+    PrimaryText2: Matter is anything that has weight and takes up space.
+    SecondaryText: You, me, your toys, and even the air we breathe are all made of
+      matter.
+    Sprite: {fileID: -6195467565271082092, guid: 69d627ff808fa7649b440a7ed4fc3489, type: 3}
+  - Heading: Matter is Made of Tiny Particles!
+    PrimaryText1: "Matter is made up of tiny particles called atoms!\r"
+    PrimaryText2: These tiny particles are always moving and form the building blocks
+      of matter
+    SecondaryText: The way tiny particles are packed together decides the state of
+      matter
+    Sprite: {fileID: -2117401660, guid: 69d627ff808fa7649b440a7ed4fc3489, type: 3}
+  - Heading: Mass & Volume
+    PrimaryText1: Mass is how much stuff is in something, like how heavy your backpack
+      is.
+    PrimaryText2: Volume is how much space something takes up, like how big a water
+      bottle is.
+    SecondaryText: <b>Mass</b> and <b>volume</b> are the two important features of
+      any matter.
+    Sprite: {fileID: 21300000, guid: a329f86a6afc1354086390b460986650, type: 3}
+  - Heading: Solids
+    PrimaryText1: In a solid state matter will almost always keep their own shape
+    PrimaryText2: "They are strong and don\u2019t change shape unless you break them.\r\r\n"
+    SecondaryText: "The tiny particles in solids are packed tightly and don\u2019t
+      move around much."
+    Sprite: {fileID: -5919014163272618242, guid: c1692063da2c5b94b84f63e4820b12ca, type: 3}
+  - Heading: Liquids
+    PrimaryText1: "Liquids don\u2019t have their own shape and take the shape of
+      their container."
+    PrimaryText2: 'Particles in liquids are close but can slide past each other.
+
+'
+    SecondaryText: This allows them to move around and be poured from one container
+      to another.
+    Sprite: {fileID: 4447268244589035467, guid: 0e338b02a2bbb8e4385189d179154e83, type: 3}
+  - Heading: Gases
+    PrimaryText1: "Even though we can\u2019t always see gases, they are all around
+      us."
+    PrimaryText2: "They float and spread out to fill the space around them.\r\t"
+    SecondaryText: Particles in gases are far apart and move very fast, filling up
+      all the space.
+    Sprite: {fileID: 3560853300421500909, guid: bcf32c0f85eb5044083b026128b4c269, type: 3}

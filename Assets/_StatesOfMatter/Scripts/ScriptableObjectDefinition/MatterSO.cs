@@ -1,5 +1,4 @@
-﻿using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace TMKOC.StatesOfMatter
 {
@@ -20,7 +19,6 @@ namespace TMKOC.StatesOfMatter
             return ItemList[index];
         }
     }
-
 
     [System.Serializable]
     public class ItemData

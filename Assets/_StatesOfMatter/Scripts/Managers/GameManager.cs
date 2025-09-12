@@ -30,7 +30,9 @@ namespace TMKOC.StatesOfMatter
 
             //yield return new WaitForSeconds(_startGameWaitTime);
 
-            OnGameStart?.Invoke();
+            OnTutorialStart?.Invoke();
+
+            //OnGameStart?.Invoke();
         }
 
         private void OnEnable()
@@ -50,6 +52,7 @@ namespace TMKOC.StatesOfMatter
         #region Game events
 
         public static event Action OnTutorialStart, OnTutorialEnd;
+        public static event Action OnNextTutorialRequested;
         public static event Action OnGameStart, OnGameRestart;
         public static event Action<bool> OnGameEnd;
         public static event Action<ItemData> OnRequestNextItem;
@@ -84,10 +87,28 @@ namespace TMKOC.StatesOfMatter
             HandleRestart();
         }
 
+        public void InvokeNextTutorial()
+        {
+            OnNextTutorialRequested?.Invoke();
+        }
+
+        public void InvokeTutorialEnd()
+        {
+            OnTutorialEnd?.Invoke();
+
+            StartCoroutine(DelayedStart(0.25f));
+        }
 
         public void GoBackToPlayschool()
         {
             //SceneManager.LoadScene(TMKOCPlaySchoolConstants.TMKOCPlayMainMenu);
+        }
+
+        private IEnumerator DelayedStart(float delay)
+        {
+            yield return new WaitForSeconds(delay);
+
+            OnGameStart?.Invoke();
         }
 
         public void InvokeGameEnd(bool toggle)

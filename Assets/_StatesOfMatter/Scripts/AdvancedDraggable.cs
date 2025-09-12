@@ -18,6 +18,7 @@ namespace TMKOC.StatesOfMatter
     {
         private Vector3 _initialPosition;
         private Transform _initialParent;
+        private Transform _dragTimeParent;
         private Canvas _parentCanvas;
         private CanvasGroup _canvasGroup;
         
@@ -52,6 +53,7 @@ namespace TMKOC.StatesOfMatter
             {
                 _canvasGroup.blocksRaycasts = false;
 
+                transform.SetParent(_dragTimeParent, true);
                 _initialPosition = transform.position;
                 _initialParent = transform.parent;
 
@@ -139,7 +141,7 @@ namespace TMKOC.StatesOfMatter
 
         public void Reset()
         {
-            transform.SetParent(_initialParent);
+            //transform.SetParent(_initialParent);
             IsDraggable = true;
 
             if (resetIfNotDroppedCorrectly)
@@ -160,6 +162,11 @@ namespace TMKOC.StatesOfMatter
             {
                 Destroy(this.gameObject);
             });
+        }
+
+        public void SetNewParent(Transform parent)
+        {
+            _dragTimeParent = parent;
         }
 
         public void SetResetType(bool toggle)

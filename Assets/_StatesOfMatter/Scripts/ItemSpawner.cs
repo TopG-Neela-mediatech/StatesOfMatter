@@ -5,7 +5,7 @@ namespace TMKOC.StatesOfMatter
     public class ItemSpawner : MonoBehaviour
     {
         [SerializeField] private MatterDraggable itemPrefab;
-        [SerializeField] private Transform spawnParent;
+        [SerializeField] private Transform spawnParent, secondarySpawnParent;
 
         private MatterDraggable currentSpawnedItem;
 
@@ -26,6 +26,7 @@ namespace TMKOC.StatesOfMatter
             currentSpawnedItem.SetResetType(false);
             currentSpawnedItem.SetInfo(data);
             currentSpawnedItem.ToggleTextObj(false);
+            currentSpawnedItem.SetNewParent(secondarySpawnParent);
         }
 
     }
