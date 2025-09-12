@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 176939562}
   - component: {fileID: 176939561}
   m_Layer: 5
-  m_Name: Button
+  m_Name: NextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8239,6 +8239,8 @@ MonoBehaviour:
   m_primaryText2: {fileID: 549158221}
   m_secondaryText: {fileID: 708750333}
   typingSpeed: 0.025
+  initialDelay: 1
+  m_nextBtn: {fileID: 176939561}
   m_gameCanvas: {fileID: 1945737410}
   m_tutorialCanvas: {fileID: 1845748427}
 --- !u!1 &1810184027
@@ -8587,7 +8589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1845748425
 MonoBehaviour:
   m_ObjectHideFlags: 0

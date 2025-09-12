@@ -15,6 +15,7 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private TextMeshProUGUI m_header, m_primaryText1, m_primaryText2, m_secondaryText;
         [SerializeField] private float typingSpeed = 0.025f;
         [SerializeField] private float initialDelay = 1f;
+        [SerializeField] private Button m_nextBtn;
 
         [Header("Canvas")]
         [SerializeField] private Canvas m_gameCanvas;
@@ -75,6 +76,8 @@ namespace TMKOC.StatesOfMatter
 
         private void ChangeTutorialData(TutorialData data)
         {
+            m_nextBtn.gameObject.SetActive(false);
+
             m_header.SetText(data.Heading);
             m_primaryText1.SetText(data.PrimaryText1);
             m_primaryText2.SetText(data.PrimaryText2);
@@ -105,6 +108,9 @@ namespace TMKOC.StatesOfMatter
             yield return waitTimer;
 
             yield return TypeAndShow(m_secondaryText);
+            yield return waitTimer;
+
+            m_nextBtn.gameObject.SetActive(true);
         }
 
         private IEnumerator TypeAndShow(TextMeshProUGUI tmpText)
@@ -157,6 +163,7 @@ namespace TMKOC.StatesOfMatter
             m_primaryText1.gameObject.SetActive(true);
             m_primaryText2.gameObject.SetActive(true);
             m_secondaryText.gameObject.SetActive(true);
+            m_nextBtn.gameObject.SetActive(true);
         }
     }
 }
