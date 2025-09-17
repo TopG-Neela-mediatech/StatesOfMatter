@@ -16,6 +16,7 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private float typingSpeed = 0.025f;
         [SerializeField] private float initialDelay = 1f;
         [SerializeField] private Button m_nextBtn;
+        [SerializeField] private GameObject m_particleParent;
 
         [Header("Canvas")]
         [SerializeField] private Canvas m_gameCanvas;
@@ -31,6 +32,7 @@ namespace TMKOC.StatesOfMatter
 
             GameManager.OnTutorialStart += CheckCanvases;
             GameManager.OnTutorialEnd += ChangeCanvas;
+
             TutorialManager.OnNewDataLoaded += ChangeTutorialData;
         }
 
@@ -76,14 +78,26 @@ namespace TMKOC.StatesOfMatter
 
         private void ChangeTutorialData(TutorialData data)
         {
+            if (data.Index == 1)
+            {
+                m_image.color = Color.clear;
+                EnableParticles();
+            }
+            else
+            {
+                m_image.color = Color.white;
+                DisableParticles();
+            }
+
+            m_image.sprite = data.Sprite;
+
             m_nextBtn.gameObject.SetActive(false);
 
             m_header.SetText(data.Heading);
             m_primaryText1.SetText(data.PrimaryText1);
             m_primaryText2.SetText(data.PrimaryText2);
             m_secondaryText.SetText(data.SecondaryText);
-            m_image.sprite = data.Sprite;
-            m_image.color = Color.white;
+
 
             // Hide all text fields initially
             m_header.gameObject.SetActive(false);
@@ -164,6 +178,16 @@ namespace TMKOC.StatesOfMatter
             m_primaryText2.gameObject.SetActive(true);
             m_secondaryText.gameObject.SetActive(true);
             m_nextBtn.gameObject.SetActive(true);
+        }
+
+        private void EnableParticles()
+        {
+            m_particleParent.SetActive(true);
+        }
+
+        private void DisableParticles()
+        {
+            m_particleParent.SetActive(false);
         }
     }
 }

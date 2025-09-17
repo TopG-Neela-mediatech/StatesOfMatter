@@ -23,6 +23,7 @@ namespace TMKOC.StatesOfMatter
     [System.Serializable]
     public class TutorialData
     {
+        public int Index;
         public string Heading;
         [TextArea(3, 6)]
         public string PrimaryText1;

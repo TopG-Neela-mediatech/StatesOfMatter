@@ -9,12 +9,13 @@ public class TutorialManager : MonoBehaviour
     private int currentIndex = 0;
 
     public static event Action<TutorialData> OnNewDataLoaded;
+    public static event Action OnParticleSlideLoaded;
 
 
     private void OnEnable()
     {
         GameManager.OnTutorialStart += StartTutorial;
- 
+
         GameManager.OnNextTutorialRequested += DisplayNextData;
     }
 
@@ -40,15 +41,12 @@ public class TutorialManager : MonoBehaviour
             return;
         }
 
-
         // get the data
         TutorialData tutData = m_tutorialDataList.GetData(currentIndex);
 
         if (tutData != null)
         {
-            // invoke the event to ui manager to collect the data
-            // or take it directly as UIMan is singleton instance
-
+            tutData.Index = currentIndex;
             OnNewDataLoaded?.Invoke(tutData);
         }
 
