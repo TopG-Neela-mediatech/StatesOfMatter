@@ -1,0 +1,1007 @@
+fileFormatVersion: 2
+guid: 99ea8ff16fb0111419ecabcde2f954f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1250025953938245170
+    second: Gas_SpriteSheet_0
+  - first:
+      213: 5043885273808093054
+    second: Gas_SpriteSheet_1
+  - first:
+      213: 4575890260743962960
+    second: Gas_SpriteSheet_2
+  - first:
+      213: 8795479829728377485
+    second: Gas_SpriteSheet_3
+  - first:
+      213: -6322355560960517207
+    second: Gas_SpriteSheet_4
+  - first:
+      213: -7960345600899629997
+    second: Gas_SpriteSheet_5
+  - first:
+      213: 8671607113769936359
+    second: Gas_SpriteSheet_6
+  - first:
+      213: 9193451788828214388
+    second: Gas_SpriteSheet_7
+  - first:
+      213: 6071212018813264212
+    second: Gas_SpriteSheet_8
+  - first:
+      213: 8480399945847358346
+    second: Gas_SpriteSheet_9
+  - first:
+      213: 3656907607636246031
+    second: Gas_SpriteSheet_10
+  - first:
+      213: 8157756312636389956
+    second: Gas_SpriteSheet_11
+  - first:
+      213: -9221715523812497894
+    second: Gas_SpriteSheet_12
+  - first:
+      213: -6355316202136053787
+    second: Gas_SpriteSheet_13
+  - first:
+      213: -33888168103719744
+    second: Gas_SpriteSheet_14
+  - first:
+      213: 2454544529248765601
+    second: Gas_SpriteSheet_15
+  - first:
+      213: 2707962495303662785
+    second: Gas_SpriteSheet_16
+  - first:
+      213: 4871220226397237823
+    second: Gas_SpriteSheet_17
+  - first:
+      213: -7228743154954165611
+    second: Gas_SpriteSheet_18
+  - first:
+      213: 6843000673500834596
+    second: Gas_SpriteSheet_19
+  - first:
+      213: -4312195837533620592
+    second: Gas_SpriteSheet_20
+  - first:
+      213: -446693802377285402
+    second: Gas_SpriteSheet_21
+  - first:
+      213: 5503613156381823091
+    second: Gas_SpriteSheet_22
+  - first:
+      213: -6593338702332225112
+    second: Gas_SpriteSheet_23
+  - first:
+      213: 4783163789177618367
+    second: Gas_SpriteSheet_24
+  - first:
+      213: 2026386270964772501
+    second: Gas_SpriteSheet_25
+  - first:
+      213: -6071206604851428492
+    second: Gas_SpriteSheet_26
+  - first:
+      213: 3549973598875516398
+    second: Gas_SpriteSheet_27
+  - first:
+      213: 6380637535949610404
+    second: Gas_SpriteSheet_28
+  - first:
+      213: -7858369573914566273
+    second: Gas_SpriteSheet_29
+  - first:
+      213: 7237612005527276844
+    second: Gas_SpriteSheet_30
+  - first:
+      213: -3239347707408733315
+    second: Gas_SpriteSheet_31
+  - first:
+      213: 7761386439922150638
+    second: Gas_SpriteSheet_32
+  - first:
+      213: -2734817783061718977
+    second: Gas_SpriteSheet_33
+  - first:
+      213: 4492285126011574712
+    second: Gas_SpriteSheet_34
+  - first:
+      213: 6118392367332732318
+    second: Gas_SpriteSheet_35
+  - first:
+      213: -5871193646297255251
+    second: Gas_SpriteSheet_36
+  - first:
+      213: 8815328519335617775
+    second: Gas_SpriteSheet_37
+  - first:
+      213: -8886656077211490678
+    second: Gas_SpriteSheet_38
+  - first:
+      213: 668343377287465683
+    second: Gas_SpriteSheet_39
+  - first:
+      213: 8961886900931412107
+    second: Gas_SpriteSheet_40
+  - first:
+      213: 5709478192386701685
+    second: Gas_SpriteSheet_41
+  - first:
+      213: -1340779464857457750
+    second: Gas_SpriteSheet_42
+  - first:
+      213: -3997995443101287193
+    second: Gas_SpriteSheet_43
+  - first:
+      213: -3831033275639652339
+    second: Gas_SpriteSheet_44
+  - first:
+      213: 6792082850885359242
+    second: Gas_SpriteSheet_45
+  - first:
+      213: 66615115571827526
+    second: Gas_SpriteSheet_46
+  - first:
+      213: -5595231859379252442
+    second: Gas_SpriteSheet_47
+  - first:
+      213: 6184169983845497238
+    second: Gas_SpriteSheet_48
+  - first:
+      213: 8913779259725642937
+    second: Gas_SpriteSheet_49
+  - first:
+      213: -4576386915177999878
+    second: Gas_SpriteSheet_50
+  - first:
+      213: 5206152863538736035
+    second: Gas_SpriteSheet_51
+  - first:
+      213: 6434416493063046125
+    second: Gas_SpriteSheet_52
+  - first:
+      213: -242019444540226346
+    second: Gas_SpriteSheet_53
+  - first:
+      213: 3629392711771243653
+    second: Gas_SpriteSheet_54
+  - first:
+      213: 5897949368880845236
+    second: Gas_SpriteSheet_55
+  - first:
+      213: 616906183479856371
+    second: Gas_SpriteSheet_56
+  - first:
+      213: -5149542467310959027
+    second: Gas_SpriteSheet_57
+  - first:
+      213: -856038095685588933
+    second: Gas_SpriteSheet_58
+  - first:
+      213: 3061061050894211682
+    second: Gas_SpriteSheet_59
+  - first:
+      213: 411087836043813369
+    second: Gas_SpriteSheet_60
+  - first:
+      213: 8292459029117635950
+    second: Gas_SpriteSheet_61
+  - first:
+      213: -8703923519208903845
+    second: Gas_SpriteSheet_62
+  - first:
+      213: -8088339541153073900
+    second: Gas_SpriteSheet_63
+  - first:
+      213: 5035579686781604658
+    second: Gas_SpriteSheet_64
+  - first:
+      213: -8076472501174421989
+    second: Gas_SpriteSheet_65
+  - first:
+      213: 1935014973573115106
+    second: Gas_SpriteSheet_66
+  - first:
+      213: -4715998898440317520
+    second: Gas_SpriteSheet_67
+  - first:
+      213: -9177553602097042632
+    second: Gas_SpriteSheet_68
+  - first:
+      213: -1990651667332379853
+    second: Gas_SpriteSheet_69
+  - first:
+      213: 7747675246642267405
+    second: Gas_SpriteSheet_70
+  - first:
+      213: 4350195854651034192
+    second: Gas_SpriteSheet_71
+  - first:
+      213: 9104029808960396387
+    second: Gas_SpriteSheet_72
+  - first:
+      213: 7241421074397187665
+    second: Gas_SpriteSheet_73
+  - first:
+      213: -3394159213079051968
+    second: Gas_SpriteSheet_74
+  - first:
+      213: -1744193901903533571
+    second: Gas_SpriteSheet_75
+  - first:
+      213: -7935514193942078735
+    second: Gas_SpriteSheet_76
+  - first:
+      213: 8099024825587223087
+    second: Gas_SpriteSheet_77
+  - first:
+      213: -610767713236958537
+    second: Gas_SpriteSheet_78
+  - first:
+      213: -1864510123192782092
+    second: Gas_SpriteSheet_79
+  - first:
+      213: 4877204480907230748
+    second: Gas_SpriteSheet_80
+  - first:
+      213: 4918967381292918508
+    second: Gas_SpriteSheet_81
+  - first:
+      213: 117778179050780955
+    second: Gas_SpriteSheet_82
+  - first:
+      213: -2149416942211253889
+    second: Gas_SpriteSheet_83
+  - first:
+      213: 6183681176686227689
+    second: Gas_SpriteSheet_84
+  - first:
+      213: 1733240020051035877
+    second: Gas_SpriteSheet_85
+  - first:
+      213: 1715680534451566509
+    second: Gas_SpriteSheet_86
+  - first:
+      213: -1916035887310451060
+    second: Gas_SpriteSheet_87
+  - first:
+      213: 972462072396658560
+    second: Gas_SpriteSheet_88
+  - first:
+      213: 398555551398512310
+    second: Gas_SpriteSheet_89
+  - first:
+      213: 1572134863592850314
+    second: Gas_SpriteSheet_90
+  - first:
+      213: 8780621928199029012
+    second: Gas_SpriteSheet_91
+  - first:
+      213: 4876954827511315281
+    second: Gas_SpriteSheet_92
+  - first:
+      213: 5827075051239808710
+    second: Gas_SpriteSheet_93
+  - first:
+      213: -8132416738582835568
+    second: Gas_SpriteSheet_94
+  - first:
+      213: -3845888813997057891
+    second: Gas_SpriteSheet_95
+  - first:
+      213: 3486623344527965172
+    second: Gas_SpriteSheet_96
+  - first:
+      213: 4182688381524445095
+    second: Gas_SpriteSheet_97
+  - first:
+      213: -3453940166712668972
+    second: Gas_SpriteSheet_98
+  - first:
+      213: -1713037341303981152
+    second: Gas_SpriteSheet_99
+  - first:
+      213: 1720452327562498102
+    second: Gas_SpriteSheet_100
+  - first:
+      213: -6116435695288729454
+    second: Gas_SpriteSheet_101
+  - first:
+      213: -3543324803481428012
+    second: Gas_SpriteSheet_102
+  - first:
+      213: 3397183639182261089
+    second: Gas_SpriteSheet_103
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae997296b20bf5408f05afecdc05763
+      internalID: -26494928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c35645842c7634db61a9ad27a0e703
+      internalID: 115087617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce7ee1c52b471479cb8e661876ae1b
+      internalID: -1799767762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5218a5b30636db64a85d0135fa6e75c2
+      internalID: -1535626380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771867252b96b96499341b1e5dc520d6
+      internalID: -394580711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2a71ec8c877d646818d0b624741735
+      internalID: -443945442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede070b441a34d34689e93e00d4394f0
+      internalID: 1052866668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949ad954429cd7041a32b5698ba7dade
+      internalID: 294016628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efff9e0312277bf43ae3a176d465d53e
+      internalID: -2131571563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704a4b7f77e0d3547a5ed5efc0eebd1f
+      internalID: -1364233517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd551ec797c5a1e4a8e793edd2a6ace3
+      internalID: 1055495973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee8f845b949f734ba43ba7af17f8f08
+      internalID: -1361338665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f1b3a66969daf47b92f77ceff07a17
+      internalID: -1702146867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86e0eaf9ca9e2e4687f7c69048e708e
+      internalID: -1767007957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fe5c1f0784ebe45a0cd7de35c52eef
+      internalID: -686797158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce7943d5096665449bc074f3b9b0eb0
+      internalID: 562121708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf6855849a5c043983f953cbd85be7
+      internalID: 677848364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6b8bda46040640a1f7d7f4b62fe86
+      internalID: -298815920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bb62a55392d0b41ba673a8918a4177
+      internalID: 407104991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb27f5afbd9da34a87255c40dc244ed
+      internalID: -664253223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a5340801410e469a9711e00966914
+      internalID: -229643043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4138e10f3d491b045a0067b3417006cd
+      internalID: 1416645986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e422224f10ca6cd4685e4b66ff7a1082
+      internalID: 1162419542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732c05519afc04b489b832598ef684f1
+      internalID: -1606819694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1e0c46f624655834e93820b086c2858c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gas_SpriteSheet_0: -26494928
+      Gas_SpriteSheet_1: 115087617
+      Gas_SpriteSheet_10: 1055495973
+      Gas_SpriteSheet_11: -1361338665
+      Gas_SpriteSheet_12: -1702146867
+      Gas_SpriteSheet_13: -1767007957
+      Gas_SpriteSheet_14: -686797158
+      Gas_SpriteSheet_15: 562121708
+      Gas_SpriteSheet_16: 677848364
+      Gas_SpriteSheet_17: -298815920
+      Gas_SpriteSheet_18: 407104991
+      Gas_SpriteSheet_19: -664253223
+      Gas_SpriteSheet_2: -1799767762
+      Gas_SpriteSheet_20: -229643043
+      Gas_SpriteSheet_21: 1416645986
+      Gas_SpriteSheet_22: 1162419542
+      Gas_SpriteSheet_23: -1606819694
+      Gas_SpriteSheet_3: -1535626380
+      Gas_SpriteSheet_4: -394580711
+      Gas_SpriteSheet_5: -443945442
+      Gas_SpriteSheet_6: 1052866668
+      Gas_SpriteSheet_7: 294016628
+      Gas_SpriteSheet_8: -2131571563
+      Gas_SpriteSheet_9: -1364233517
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

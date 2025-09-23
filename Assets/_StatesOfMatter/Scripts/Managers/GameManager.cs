@@ -11,6 +11,8 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private MatterSO matterSO;
         [SerializeField] private float _startGameWaitTime;
 
+        [SerializeField] private bool _skipTutorial = false;
+
         private List<ItemData> matterList;
         private int currentIndex = 0;
         private bool IsGameFinished = false;
@@ -28,11 +30,14 @@ namespace TMKOC.StatesOfMatter
         {
             CopyMatterList();
 
-            //yield return new WaitForSeconds(_startGameWaitTime);
-
+            if (_skipTutorial)
+            {
+                OnTutorialEnd?.Invoke();
+                OnGameStart?.Invoke();
+                return;
+            }
             OnTutorialStart?.Invoke();
 
-            //OnGameStart?.Invoke();
         }
 
         private void OnEnable()
@@ -53,6 +58,8 @@ namespace TMKOC.StatesOfMatter
 
         public static event Action OnTutorialStart, OnTutorialEnd;
         public static event Action OnNextTutorialRequested;
+
+        public static event Action OnGameWin, OnGameLose;
         public static event Action OnGameStart, OnGameRestart;
         public static event Action<bool> OnGameEnd;
         public static event Action<ItemData> OnRequestNextItem;
@@ -147,7 +154,7 @@ namespace TMKOC.StatesOfMatter
 
         public void RequestRandomItem()
         {
-            if(matterList.Count == 0)
+            if (matterList.Count == 0)
             {
                 CopyMatterList();
             }

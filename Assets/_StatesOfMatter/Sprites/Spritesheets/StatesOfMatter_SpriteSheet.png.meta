@@ -1,0 +1,2025 @@
+fileFormatVersion: 2
+guid: 4b68cf2e1b6dbcc4e803f7c5bb6018c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1610984880390114588
+    second: StatesOfMatter_SpriteSheet_0
+  - first:
+      213: 8614158785613860755
+    second: StatesOfMatter_SpriteSheet_1
+  - first:
+      213: -2775831841366947336
+    second: StatesOfMatter_SpriteSheet_2
+  - first:
+      213: -5544765017121792594
+    second: StatesOfMatter_SpriteSheet_3
+  - first:
+      213: 5421833050130315114
+    second: StatesOfMatter_SpriteSheet_4
+  - first:
+      213: -389663135631604700
+    second: StatesOfMatter_SpriteSheet_5
+  - first:
+      213: 6388258975897054730
+    second: StatesOfMatter_SpriteSheet_6
+  - first:
+      213: -7536174350986999601
+    second: StatesOfMatter_SpriteSheet_7
+  - first:
+      213: -6496696251867589335
+    second: StatesOfMatter_SpriteSheet_8
+  - first:
+      213: -475190913548285945
+    second: StatesOfMatter_SpriteSheet_9
+  - first:
+      213: 1974935464927588018
+    second: StatesOfMatter_SpriteSheet_10
+  - first:
+      213: 1793331865817920409
+    second: StatesOfMatter_SpriteSheet_11
+  - first:
+      213: -4244837481442887779
+    second: StatesOfMatter_SpriteSheet_12
+  - first:
+      213: -8890370395082355478
+    second: StatesOfMatter_SpriteSheet_13
+  - first:
+      213: -8099125387641031565
+    second: StatesOfMatter_SpriteSheet_14
+  - first:
+      213: 734194795001892677
+    second: StatesOfMatter_SpriteSheet_15
+  - first:
+      213: -1094177827364768663
+    second: StatesOfMatter_SpriteSheet_16
+  - first:
+      213: 4830995883729309765
+    second: StatesOfMatter_SpriteSheet_17
+  - first:
+      213: 9129429473804471618
+    second: StatesOfMatter_SpriteSheet_18
+  - first:
+      213: -720784338880557403
+    second: StatesOfMatter_SpriteSheet_19
+  - first:
+      213: 3782748378139429109
+    second: StatesOfMatter_SpriteSheet_20
+  - first:
+      213: 5433134884450554171
+    second: StatesOfMatter_SpriteSheet_21
+  - first:
+      213: -1150001504693448635
+    second: StatesOfMatter_SpriteSheet_22
+  - first:
+      213: 6463369248663532550
+    second: StatesOfMatter_SpriteSheet_23
+  - first:
+      213: -677957088088489420
+    second: StatesOfMatter_SpriteSheet_24
+  - first:
+      213: 6183289746538083564
+    second: StatesOfMatter_SpriteSheet_25
+  - first:
+      213: -2678323934503100759
+    second: StatesOfMatter_SpriteSheet_26
+  - first:
+      213: -1085650950853813465
+    second: StatesOfMatter_SpriteSheet_27
+  - first:
+      213: 1425637751451043909
+    second: StatesOfMatter_SpriteSheet_28
+  - first:
+      213: 5571437715178829956
+    second: StatesOfMatter_SpriteSheet_29
+  - first:
+      213: -5663141227997622376
+    second: StatesOfMatter_SpriteSheet_30
+  - first:
+      213: -8758615134760025554
+    second: StatesOfMatter_SpriteSheet_31
+  - first:
+      213: 7616830861024100850
+    second: StatesOfMatter_SpriteSheet_32
+  - first:
+      213: 694912355168683664
+    second: StatesOfMatter_SpriteSheet_33
+  - first:
+      213: 3064791860379200446
+    second: StatesOfMatter_SpriteSheet_34
+  - first:
+      213: 4875280231101356330
+    second: StatesOfMatter_SpriteSheet_35
+  - first:
+      213: 2888938153959393433
+    second: StatesOfMatter_SpriteSheet_36
+  - first:
+      213: 3634671332777420624
+    second: StatesOfMatter_SpriteSheet_37
+  - first:
+      213: 980241048983338079
+    second: StatesOfMatter_SpriteSheet_38
+  - first:
+      213: 7389173155076165692
+    second: StatesOfMatter_SpriteSheet_39
+  - first:
+      213: 6095789884623188689
+    second: StatesOfMatter_SpriteSheet_40
+  - first:
+      213: -8154559571837169060
+    second: StatesOfMatter_SpriteSheet_41
+  - first:
+      213: -6423252087543684197
+    second: StatesOfMatter_SpriteSheet_42
+  - first:
+      213: 1381451939460000295
+    second: StatesOfMatter_SpriteSheet_43
+  - first:
+      213: -4782157145423049437
+    second: StatesOfMatter_SpriteSheet_44
+  - first:
+      213: 8491061484770908225
+    second: StatesOfMatter_SpriteSheet_45
+  - first:
+      213: 5251574576048731637
+    second: StatesOfMatter_SpriteSheet_46
+  - first:
+      213: 2603060685490944122
+    second: StatesOfMatter_SpriteSheet_47
+  - first:
+      213: -5444601802231530635
+    second: StatesOfMatter_SpriteSheet_48
+  - first:
+      213: -1653480592207499411
+    second: StatesOfMatter_SpriteSheet_49
+  - first:
+      213: -203852733080657862
+    second: StatesOfMatter_SpriteSheet_50
+  - first:
+      213: 2935607107949796558
+    second: StatesOfMatter_SpriteSheet_51
+  - first:
+      213: 294814968450403287
+    second: StatesOfMatter_SpriteSheet_52
+  - first:
+      213: -1433441173891638680
+    second: StatesOfMatter_SpriteSheet_53
+  - first:
+      213: 6259508461576589069
+    second: StatesOfMatter_SpriteSheet_54
+  - first:
+      213: 3500783397906109208
+    second: StatesOfMatter_SpriteSheet_55
+  - first:
+      213: 3338703550160346167
+    second: StatesOfMatter_SpriteSheet_56
+  - first:
+      213: -6220938793138196037
+    second: StatesOfMatter_SpriteSheet_57
+  - first:
+      213: -3020157471770794203
+    second: StatesOfMatter_SpriteSheet_58
+  - first:
+      213: 7865743264599100782
+    second: StatesOfMatter_SpriteSheet_59
+  - first:
+      213: 1911672899915951161
+    second: StatesOfMatter_SpriteSheet_60
+  - first:
+      213: 4095445692505997128
+    second: StatesOfMatter_SpriteSheet_61
+  - first:
+      213: 6035184309459717868
+    second: StatesOfMatter_SpriteSheet_62
+  - first:
+      213: 1813012394752820921
+    second: StatesOfMatter_SpriteSheet_63
+  - first:
+      213: 6162017764194283349
+    second: StatesOfMatter_SpriteSheet_64
+  - first:
+      213: 5436495861709343861
+    second: StatesOfMatter_SpriteSheet_65
+  - first:
+      213: 4815914531826760774
+    second: StatesOfMatter_SpriteSheet_66
+  - first:
+      213: -3495353372933399126
+    second: StatesOfMatter_SpriteSheet_67
+  - first:
+      213: 3365717800954155153
+    second: StatesOfMatter_SpriteSheet_68
+  - first:
+      213: -4034337386455630944
+    second: StatesOfMatter_SpriteSheet_69
+  - first:
+      213: -6885617257861306044
+    second: StatesOfMatter_SpriteSheet_70
+  - first:
+      213: 880314174572265969
+    second: StatesOfMatter_SpriteSheet_71
+  - first:
+      213: 716595447249748225
+    second: StatesOfMatter_SpriteSheet_72
+  - first:
+      213: -8391564211860763827
+    second: StatesOfMatter_SpriteSheet_73
+  - first:
+      213: 4828385398088933744
+    second: StatesOfMatter_SpriteSheet_74
+  - first:
+      213: -4856062419776956125
+    second: StatesOfMatter_SpriteSheet_75
+  - first:
+      213: 3324713770614972222
+    second: StatesOfMatter_SpriteSheet_76
+  - first:
+      213: 4937353192021451192
+    second: StatesOfMatter_SpriteSheet_77
+  - first:
+      213: -6253494565840128559
+    second: StatesOfMatter_SpriteSheet_78
+  - first:
+      213: -7744608706110300127
+    second: StatesOfMatter_SpriteSheet_79
+  - first:
+      213: 3883629819372853676
+    second: StatesOfMatter_SpriteSheet_80
+  - first:
+      213: 2949420761497504574
+    second: StatesOfMatter_SpriteSheet_81
+  - first:
+      213: -4283093569606661520
+    second: StatesOfMatter_SpriteSheet_82
+  - first:
+      213: 3483179079220416543
+    second: StatesOfMatter_SpriteSheet_83
+  - first:
+      213: -6721141012834108069
+    second: StatesOfMatter_SpriteSheet_84
+  - first:
+      213: 2752562770440629354
+    second: StatesOfMatter_SpriteSheet_85
+  - first:
+      213: -2820590275041837961
+    second: StatesOfMatter_SpriteSheet_86
+  - first:
+      213: -1498036009661069106
+    second: StatesOfMatter_SpriteSheet_87
+  - first:
+      213: -5052941356896631168
+    second: StatesOfMatter_SpriteSheet_88
+  - first:
+      213: 7619051429320281940
+    second: StatesOfMatter_SpriteSheet_89
+  - first:
+      213: 1366626755672057858
+    second: StatesOfMatter_SpriteSheet_90
+  - first:
+      213: 3538230660618812713
+    second: StatesOfMatter_SpriteSheet_91
+  - first:
+      213: 4122175854386242546
+    second: StatesOfMatter_SpriteSheet_92
+  - first:
+      213: -7701821260914915667
+    second: StatesOfMatter_SpriteSheet_93
+  - first:
+      213: -3898365500104440569
+    second: StatesOfMatter_SpriteSheet_94
+  - first:
+      213: -1293615381997803517
+    second: StatesOfMatter_SpriteSheet_95
+  - first:
+      213: 4890516545033181217
+    second: StatesOfMatter_SpriteSheet_96
+  - first:
+      213: 3612380919551681680
+    second: StatesOfMatter_SpriteSheet_97
+  - first:
+      213: 5759718671380439987
+    second: StatesOfMatter_SpriteSheet_98
+  - first:
+      213: 592235423511829637
+    second: StatesOfMatter_SpriteSheet_99
+  - first:
+      213: 6688999386103903589
+    second: StatesOfMatter_SpriteSheet_100
+  - first:
+      213: 4750530172728472918
+    second: StatesOfMatter_SpriteSheet_101
+  - first:
+      213: -1376113257384874103
+    second: StatesOfMatter_SpriteSheet_102
+  - first:
+      213: -8461460948866472532
+    second: StatesOfMatter_SpriteSheet_103
+  - first:
+      213: -3247538153732256096
+    second: StatesOfMatter_SpriteSheet_104
+  - first:
+      213: -7516918587570928352
+    second: StatesOfMatter_SpriteSheet_105
+  - first:
+      213: -5967210431095880761
+    second: StatesOfMatter_SpriteSheet_106
+  - first:
+      213: 3745165275955439898
+    second: StatesOfMatter_SpriteSheet_107
+  - first:
+      213: 8590677829383003442
+    second: StatesOfMatter_SpriteSheet_108
+  - first:
+      213: 2226230617877915348
+    second: StatesOfMatter_SpriteSheet_109
+  - first:
+      213: 8844668745198106258
+    second: StatesOfMatter_SpriteSheet_110
+  - first:
+      213: -2758633759674962673
+    second: StatesOfMatter_SpriteSheet_111
+  - first:
+      213: -8792761297949487913
+    second: StatesOfMatter_SpriteSheet_112
+  - first:
+      213: -1950356911781530428
+    second: StatesOfMatter_SpriteSheet_113
+  - first:
+      213: 1162570264034343157
+    second: StatesOfMatter_SpriteSheet_114
+  - first:
+      213: -6062758468710094735
+    second: StatesOfMatter_SpriteSheet_115
+  - first:
+      213: -5736260128080050995
+    second: StatesOfMatter_SpriteSheet_116
+  - first:
+      213: 1445076432043288403
+    second: StatesOfMatter_SpriteSheet_117
+  - first:
+      213: -4223505430729547853
+    second: StatesOfMatter_SpriteSheet_118
+  - first:
+      213: -7262370974570574316
+    second: StatesOfMatter_SpriteSheet_119
+  - first:
+      213: 3001822726405705456
+    second: StatesOfMatter_SpriteSheet_120
+  - first:
+      213: 5899976906651824387
+    second: StatesOfMatter_SpriteSheet_121
+  - first:
+      213: 4485712342484434996
+    second: StatesOfMatter_SpriteSheet_122
+  - first:
+      213: -1426531647481046250
+    second: StatesOfMatter_SpriteSheet_123
+  - first:
+      213: 3713190309133951160
+    second: StatesOfMatter_SpriteSheet_124
+  - first:
+      213: 3138262752297815369
+    second: StatesOfMatter_SpriteSheet_125
+  - first:
+      213: -7336192969628190338
+    second: StatesOfMatter_SpriteSheet_126
+  - first:
+      213: 8418162847104774976
+    second: StatesOfMatter_SpriteSheet_127
+  - first:
+      213: -3599148029407238167
+    second: StatesOfMatter_SpriteSheet_128
+  - first:
+      213: 7692572725355557679
+    second: StatesOfMatter_SpriteSheet_129
+  - first:
+      213: 1382362579499866132
+    second: StatesOfMatter_SpriteSheet_130
+  - first:
+      213: 5833556327585024095
+    second: StatesOfMatter_SpriteSheet_131
+  - first:
+      213: 5848635562034876016
+    second: StatesOfMatter_SpriteSheet_132
+  - first:
+      213: 3764547988436800890
+    second: StatesOfMatter_SpriteSheet_133
+  - first:
+      213: 7592396139337670879
+    second: StatesOfMatter_SpriteSheet_134
+  - first:
+      213: -7688613073022042573
+    second: StatesOfMatter_SpriteSheet_135
+  - first:
+      213: -438684987142266265
+    second: StatesOfMatter_SpriteSheet_136
+  - first:
+      213: 3952820904327280163
+    second: StatesOfMatter_SpriteSheet_137
+  - first:
+      213: -5603438212816949952
+    second: StatesOfMatter_SpriteSheet_138
+  - first:
+      213: -7973166108674096261
+    second: StatesOfMatter_SpriteSheet_139
+  - first:
+      213: -4373705623387935594
+    second: StatesOfMatter_SpriteSheet_140
+  - first:
+      213: 6096529022384652975
+    second: StatesOfMatter_SpriteSheet_141
+  - first:
+      213: 7651942699292724820
+    second: StatesOfMatter_SpriteSheet_142
+  - first:
+      213: 4690179232712386891
+    second: StatesOfMatter_SpriteSheet_143
+  - first:
+      213: 6855190293753784863
+    second: StatesOfMatter_SpriteSheet_144
+  - first:
+      213: -1129435776481781077
+    second: StatesOfMatter_SpriteSheet_145
+  - first:
+      213: -329226668665947160
+    second: StatesOfMatter_SpriteSheet_146
+  - first:
+      213: 630894023459132363
+    second: StatesOfMatter_SpriteSheet_147
+  - first:
+      213: -7823224095695380410
+    second: StatesOfMatter_SpriteSheet_148
+  - first:
+      213: 6300480210453321257
+    second: StatesOfMatter_SpriteSheet_149
+  - first:
+      213: 3413871018364506808
+    second: StatesOfMatter_SpriteSheet_150
+  - first:
+      213: 6529184003618667245
+    second: StatesOfMatter_SpriteSheet_151
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d34e62c1a03114bbc19a4f790e4078
+      internalID: -148485341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d31718e17e646419802dad3ed21a5a
+      internalID: -656262469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f1f0aae531dcf43bdc8d0b21169906
+      internalID: -553583802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f5d47933dc4fd40a2e1badd5be4004
+      internalID: 1636937963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c977e2132f9f44faac370505a7d4ad
+      internalID: -186358354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a622f75598526964cbd3159da247734e
+      internalID: 257495325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5ce65d889552f4b811c3bea602856f
+      internalID: -1670159417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d422310810af6304a96bbad731a26a79
+      internalID: 1359247801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbf59988ce47ae4b9d22352655cd005
+      internalID: 214777215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b227fa714cdf7d347a83e12bcf19b8ac
+      internalID: 1433964628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a188f9c3d899eab40975ad7c4497edb1
+      internalID: 431412643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de35102540938446a21246a23761bcc
+      internalID: -120436990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6afc8bac9408d45ac92c7ff1ed561f
+      internalID: -174280042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192d43a105ff29d4f80f5a50b27075be
+      internalID: 323370693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f444985d1b89b604aaae7b5c95c3b997
+      internalID: 878174969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d147d569bc4d01f4391a7bae71da83c0
+      internalID: -1044829230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28105ed01ac184469af68792b1ad208
+      internalID: -815605677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7879b464f004048a37507e842dae2f
+      internalID: -61971699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a9496a269d6a946b02d84735d617d4
+      internalID: -1255932130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4155389f01b5a5e4180c64ce23c5740a
+      internalID: 1888966771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a405718c1a554085a836d549641b9
+      internalID: 252289761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11904f6e44d894438c6abb327ca80d5
+      internalID: 953182464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b8af811759ca409828425525d2b4b
+      internalID: -465928955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c545ed313368a64bac2340e61f08719
+      internalID: -1100480760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56d141633d3cb94ea5687858b45948f
+      internalID: -777648149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f9168c1d8f60a47b1558873b6c27c6
+      internalID: 1096121482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675d4b905d340ea4c98b62342b34220b
+      internalID: 834291365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba44e45a0ff8504b92327db3a2a4461
+      internalID: 990163417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce521ef36c0f7a44896fbcbdbda33d14
+      internalID: 559358905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f963adec9d0304bb80c532546af6ad
+      internalID: -1008908029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9872bb07406ba214e863eaf3e87e35e3
+      internalID: 1179019289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce887e46891766438e9a088546221b1
+      internalID: 1186164325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2690e88f9cf251c4494f2bc1d3151c29
+      internalID: -1817832422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7ad925234bd041960942b275b77bc
+      internalID: -313793253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee7b1a69dfd28b45898cb2807697c38
+      internalID: -545605438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991020564be1f0040a1662b180dac349
+      internalID: -56337935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845f0401877ba4d459abf4fb2ad4d275
+      internalID: -530055325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534ad1d92ed0b8f45b5b4af8d2a3a6de
+      internalID: 1343425207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d4a63327c743b4084fc7392ee0796b
+      internalID: -1138970094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a661e124f2daef14ab4102c39fbdd105
+      internalID: 1289922254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c637ebf77ab81d43a74a20c2c125f60
+      internalID: -1585198094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dd3eec5da9aae43b2fb1b2e1194f45
+      internalID: -1006563193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d94e63dd080b954387e6e110232d41f
+      internalID: 536273437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5948403cc1b5ea54aa0405d339d0dbcb
+      internalID: 1286554292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ac59ef0db7e2a4ea56bcad6570356a
+      internalID: -1430234629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d23101fcec37c440896d552fb3bb4d6
+      internalID: 139211491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0eb64ce35abc74eb6a061e9e734efa
+      internalID: 2016130726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b549b742bd60f004786c6cf5b97c5437
+      internalID: 510253516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341c09c075c6c2d4ab669ded3f0e8e5b
+      internalID: -875698127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac2daec3512f2141a0d87cd87db45b8
+      internalID: -234343781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffc8834e3288f14ebb7d852d5e0d75d
+      internalID: -39045864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c7ee740f347f843a7dac68302522e9
+      internalID: -1739208983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f04cfcac228724f9ecff6b1f7f9116
+      internalID: 611026266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7187816ef07514fa965867e6dafcc0
+      internalID: -275369997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc9a75bacacef14bb1c2022bc5e9309
+      internalID: 517882236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32263cf961698a4eb59154252253785
+      internalID: -299405880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134ee8d5ef9d9443b6429faaaff04ad
+      internalID: -1504948828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36c086b43ba2ad4d8059b97eccc2ed7
+      internalID: -1351492321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f9cf777a6ff51429e53fe818c718cb
+      internalID: 2090257777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ddd55ba6e8dc74190ca886a66d6aaf
+      internalID: 10669769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b88f841a486dbc4b9a2825db28efbef
+      internalID: -1279615016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StatesOfMatter_SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11186e51e74871146a97611b6ea87f6a
+      internalID: 1513527819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eec5b9b2f8759064ebe1fb7ca8bd9936
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      StatesOfMatter_SpriteSheet_0: -148485341
+      StatesOfMatter_SpriteSheet_1: -656262469
+      StatesOfMatter_SpriteSheet_10: 431412643
+      StatesOfMatter_SpriteSheet_11: -120436990
+      StatesOfMatter_SpriteSheet_12: -174280042
+      StatesOfMatter_SpriteSheet_13: 323370693
+      StatesOfMatter_SpriteSheet_14: 878174969
+      StatesOfMatter_SpriteSheet_15: -1044829230
+      StatesOfMatter_SpriteSheet_16: -815605677
+      StatesOfMatter_SpriteSheet_17: -61971699
+      StatesOfMatter_SpriteSheet_18: -1255932130
+      StatesOfMatter_SpriteSheet_19: 1888966771
+      StatesOfMatter_SpriteSheet_2: -553583802
+      StatesOfMatter_SpriteSheet_20: 252289761
+      StatesOfMatter_SpriteSheet_21: 953182464
+      StatesOfMatter_SpriteSheet_22: -465928955
+      StatesOfMatter_SpriteSheet_23: -1100480760
+      StatesOfMatter_SpriteSheet_24: -777648149
+      StatesOfMatter_SpriteSheet_25: 1096121482
+      StatesOfMatter_SpriteSheet_26: 834291365
+      StatesOfMatter_SpriteSheet_27: 990163417
+      StatesOfMatter_SpriteSheet_28: 559358905
+      StatesOfMatter_SpriteSheet_29: -1008908029
+      StatesOfMatter_SpriteSheet_3: 1636937963
+      StatesOfMatter_SpriteSheet_30: 1179019289
+      StatesOfMatter_SpriteSheet_31: 1186164325
+      StatesOfMatter_SpriteSheet_32: -1817832422
+      StatesOfMatter_SpriteSheet_33: -313793253
+      StatesOfMatter_SpriteSheet_34: -545605438
+      StatesOfMatter_SpriteSheet_35: -56337935
+      StatesOfMatter_SpriteSheet_36: -530055325
+      StatesOfMatter_SpriteSheet_37: 1343425207
+      StatesOfMatter_SpriteSheet_38: -1138970094
+      StatesOfMatter_SpriteSheet_39: 1289922254
+      StatesOfMatter_SpriteSheet_4: -186358354
+      StatesOfMatter_SpriteSheet_40: -1585198094
+      StatesOfMatter_SpriteSheet_41: -1006563193
+      StatesOfMatter_SpriteSheet_42: 536273437
+      StatesOfMatter_SpriteSheet_43: 1286554292
+      StatesOfMatter_SpriteSheet_44: -1430234629
+      StatesOfMatter_SpriteSheet_45: 139211491
+      StatesOfMatter_SpriteSheet_46: 2016130726
+      StatesOfMatter_SpriteSheet_47: 510253516
+      StatesOfMatter_SpriteSheet_48: -875698127
+      StatesOfMatter_SpriteSheet_49: -234343781
+      StatesOfMatter_SpriteSheet_5: 257495325
+      StatesOfMatter_SpriteSheet_50: -39045864
+      StatesOfMatter_SpriteSheet_51: -1739208983
+      StatesOfMatter_SpriteSheet_52: 611026266
+      StatesOfMatter_SpriteSheet_53: -275369997
+      StatesOfMatter_SpriteSheet_54: 517882236
+      StatesOfMatter_SpriteSheet_55: -299405880
+      StatesOfMatter_SpriteSheet_56: -1504948828
+      StatesOfMatter_SpriteSheet_57: -1351492321
+      StatesOfMatter_SpriteSheet_58: 2090257777
+      StatesOfMatter_SpriteSheet_59: 10669769
+      StatesOfMatter_SpriteSheet_6: -1670159417
+      StatesOfMatter_SpriteSheet_60: -1279615016
+      StatesOfMatter_SpriteSheet_61: 1513527819
+      StatesOfMatter_SpriteSheet_7: 1359247801
+      StatesOfMatter_SpriteSheet_8: 214777215
+      StatesOfMatter_SpriteSheet_9: 1433964628
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

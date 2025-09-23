@@ -18,6 +18,8 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private Button m_nextBtn;
         [SerializeField] private GameObject m_particleParent;
 
+        [SerializeField] private GameObject[] m_slideImageList;
+
         [Header("Canvas")]
         [SerializeField] private Canvas m_gameCanvas;
         [SerializeField] private Canvas m_tutorialCanvas;
@@ -26,7 +28,6 @@ namespace TMKOC.StatesOfMatter
 
         private void OnEnable()
         {
-            GameManager.OnGameEnd += EnableGameEndPanels;
             GameManager.OnGameStart += DisablePanels;
             GameManager.OnGameRestart += DisablePanels;
 
@@ -34,6 +35,8 @@ namespace TMKOC.StatesOfMatter
             GameManager.OnTutorialEnd += ChangeCanvas;
 
             TutorialManager.OnNewDataLoaded += ChangeTutorialData;
+            GameManager.OnGameEnd += EnableGameEndPanels;
+            AnimationController.OnEndAnimationFinished += EnableGameEndPanels;
         }
 
         private void Start()
@@ -43,19 +46,25 @@ namespace TMKOC.StatesOfMatter
 
         private void OnDisable()
         {
-            GameManager.OnGameEnd -= EnableGameEndPanels;
             GameManager.OnGameStart -= DisablePanels;
             GameManager.OnGameRestart -= DisablePanels;
 
             GameManager.OnTutorialStart -= CheckCanvases;
             GameManager.OnTutorialEnd -= ChangeCanvas;
             TutorialManager.OnNewDataLoaded -= ChangeTutorialData;
+            GameManager.OnGameEnd -= EnableGameEndPanels;
+            AnimationController.OnEndAnimationFinished -= EnableGameEndPanels;
         }
 
-        private void EnableGameEndPanels(bool toggle)
+
+        private bool endToggle = false;
+
+        private void EnableGameEndPanels(bool toggle) => endToggle = toggle;
+
+        private void EnableGameEndPanels()
         {
-            m_winPanel.SetActive(toggle);
-            m_losePanel.SetActive(!toggle);
+            m_winPanel.SetActive(endToggle);
+            m_losePanel.SetActive(!endToggle);
         }
 
         private void DisablePanels()
@@ -78,60 +87,46 @@ namespace TMKOC.StatesOfMatter
 
         private void ChangeTutorialData(TutorialData data)
         {
-            if (data.Index == 1)
-            {
-                m_image.color = Color.clear;
-                EnableParticles();
-            }
-            else
-            {
-                m_image.color = Color.white;
-                DisableParticles();
-            }
 
-            m_image.sprite = data.Sprite;
+            DisableSlideImages();
 
             m_nextBtn.gameObject.SetActive(false);
 
-            m_header.SetText(data.Heading);
-            m_primaryText1.SetText(data.PrimaryText1);
-            m_primaryText2.SetText(data.PrimaryText2);
-            m_secondaryText.SetText(data.SecondaryText);
+            m_header.SetText(string.Empty);
+            m_primaryText1.SetText(string.Empty);
+            m_primaryText2.SetText(string.Empty);
+            m_secondaryText.SetText(string.Empty);
 
-
-            // Hide all text fields initially
-            m_header.gameObject.SetActive(false);
-            m_primaryText1.gameObject.SetActive(false);
-            m_primaryText2.gameObject.SetActive(false);
-            m_secondaryText.gameObject.SetActive(false);
-
-            StartCoroutine(DisplayTutorialData());
+            StartCoroutine(DisplayTutorialData(data));
         }
 
-        private IEnumerator DisplayTutorialData()
+        private IEnumerator DisplayTutorialData(TutorialData data)
         {
             yield return waitTimer;
 
-            yield return TypeAndShow(m_header);
+            yield return TypeAndShow(m_header, data.Heading);
             yield return waitTimer;
 
-            yield return TypeAndShow(m_primaryText1);
+            yield return TypeAndShow(m_primaryText1, data.PrimaryText1);
             yield return waitTimer;
 
-            yield return TypeAndShow(m_primaryText2);
+            EnableSlideImage(data.Index);
+
+
+
+            yield return TypeAndShow(m_primaryText2, data.PrimaryText2);
             yield return waitTimer;
 
-            yield return TypeAndShow(m_secondaryText);
+            yield return TypeAndShow(m_secondaryText, data.SecondaryText);
             yield return waitTimer;
 
             m_nextBtn.gameObject.SetActive(true);
         }
 
-        private IEnumerator TypeAndShow(TextMeshProUGUI tmpText)
+        private IEnumerator TypeAndShow(TextMeshProUGUI tmpText, string fullText)
         {
             tmpText.gameObject.SetActive(true);
 
-            string fullText = tmpText.text;
             tmpText.text = "";
 
             int i = 0;
@@ -183,11 +178,32 @@ namespace TMKOC.StatesOfMatter
         private void EnableParticles()
         {
             m_particleParent.SetActive(true);
+            //m_particleParent.transform.localScale = Vector3.zero;
+            //m_particleParent.transform.DOScale(Vector3.one, 0.75f);
+        }
+
+        private void EnableSlideImage(int index)
+        {
+            if (index < 0 || index >= m_slideImageList.Length)
+            {
+                Debug.Log("Index out of bound");
+                return;
+            }
+
+            m_slideImageList[index].gameObject.SetActive(true);
         }
 
         private void DisableParticles()
         {
             m_particleParent.SetActive(false);
+        }
+
+        private void DisableSlideImages()
+        {
+            foreach (var slideImage in m_slideImageList)
+            {
+                slideImage.SetActive(false);
+            }
         }
     }
 }

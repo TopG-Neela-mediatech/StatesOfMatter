@@ -96,7 +96,7 @@ MonoBehaviour:
     Sprite: {fileID: -458051825554202644, guid: 499a983cf82f11f489615cfe3e2cdd6f, type: 3}
   - ItemName: Candle Smoke
     StateType: 2
-    Sprite: {fileID: 5769429797300280545, guid: 77347254b163cce4ca212b886e0707da, type: 3}
+    Sprite: {fileID: -568783963739682724, guid: a5ef4a1a42771094f8b87a20b11d4c2a, type: 3}
   - ItemName: Car Smoke
     StateType: 2
     Sprite: {fileID: -3576748701798217910, guid: 2494eff5b24af634d8c84373a48dba10, type: 3}
