@@ -17,11 +17,10 @@ namespace TMKOC.StatesOfMatter
     public class AdvancedDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         private Vector3 _initialPosition;
-        private Transform _initialParent;
         private Transform _dragTimeParent;
         private Canvas _parentCanvas;
         private CanvasGroup _canvasGroup;
-        
+
         private bool resetIfNotDroppedCorrectly = true;
 
         // Events (you can subscribe externally)
@@ -31,6 +30,9 @@ namespace TMKOC.StatesOfMatter
 
         [SerializeField] protected bool IsDraggable;
         [SerializeField] protected float moveTime = 0.75f;
+
+        [SerializeField] private ParticleSystem correctPS;
+        [SerializeField] private ParticleSystem incorrectPS;
 
         private void Awake()
         {
@@ -55,7 +57,6 @@ namespace TMKOC.StatesOfMatter
 
                 transform.SetParent(_dragTimeParent, true);
                 _initialPosition = transform.position;
-                _initialParent = transform.parent;
 
                 // Bring to top layer so it doesn’t hide under UI
                 transform.SetAsLastSibling();
@@ -158,6 +159,8 @@ namespace TMKOC.StatesOfMatter
                 image.DOColor(Color.clear, 0.75f);
             }
 
+            PlayIncorrectParticleEffect();
+
             transform.DOScale(Vector3.zero, 0.75f).OnComplete(() =>
             {
                 Destroy(this.gameObject);
@@ -172,6 +175,22 @@ namespace TMKOC.StatesOfMatter
         public void SetResetType(bool toggle)
         {
             resetIfNotDroppedCorrectly = toggle;
+        }
+
+        public void PlayCorrectParticleEffect()
+        {
+            if (correctPS) correctPS.Play();
+            Destroy(correctPS.gameObject, 1f);
+        }
+
+        public void PlayIncorrectParticleEffect()
+        {
+            if (incorrectPS)
+            {
+                incorrectPS.transform.SetParent(null, true);
+                incorrectPS.Play();
+                Destroy(incorrectPS.gameObject, 1f);
+            }
         }
     }
 }

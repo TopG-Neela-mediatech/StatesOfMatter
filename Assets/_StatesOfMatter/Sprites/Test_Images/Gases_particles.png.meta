@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gases_particles_0: 3560853300421500909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

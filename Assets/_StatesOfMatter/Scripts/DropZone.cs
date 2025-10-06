@@ -61,6 +61,7 @@ public class DropZone : MonoBehaviour
                 draggable.transform.DOLocalMove(Vector3.zero, .5f).OnComplete(() =>
                 {
                     draggable.ToggleTextObj(true);
+                    draggable.PlayCorrectParticleEffect();
                 });
                 CheckSlotCount();
                 return true;

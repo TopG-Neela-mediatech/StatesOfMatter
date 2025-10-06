@@ -17,12 +17,14 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private float initialDelay = 1f;
         [SerializeField] private Button m_nextBtn;
         [SerializeField] private GameObject m_particleParent;
+        [SerializeField] private bool skipRequested = false;
 
         [SerializeField] private GameObject[] m_slideImageList;
 
         [Header("Canvas")]
         [SerializeField] private Canvas m_gameCanvas;
         [SerializeField] private Canvas m_tutorialCanvas;
+
 
         private WaitForSeconds waitTimer;
 
@@ -112,8 +114,6 @@ namespace TMKOC.StatesOfMatter
 
             EnableSlideImage(data.Index);
 
-
-
             yield return TypeAndShow(m_primaryText2, data.PrimaryText2);
             yield return waitTimer;
 
@@ -126,43 +126,36 @@ namespace TMKOC.StatesOfMatter
         private IEnumerator TypeAndShow(TextMeshProUGUI tmpText, string fullText)
         {
             tmpText.gameObject.SetActive(true);
+            tmpText.text = fullText;               // Set full text first, so TMP parses tags
+            tmpText.ForceMeshUpdate();             // Make sure textInfo is updated
 
-            tmpText.text = "";
+            int totalCharacters = tmpText.textInfo.characterCount;
+            tmpText.maxVisibleCharacters = 0;      // Hide all initially
 
-            int i = 0;
-            string displayedText = "";
-            string openTags = "";
-
-            while (i < fullText.Length)
+            for (int i = 0; i < totalCharacters; i++)
             {
-                if (fullText[i] == '<')
-                {
-                    // Start of a tag: Capture entire tag and keep it in openTags
-                    int tagEnd = fullText.IndexOf('>', i);
-                    if (tagEnd == -1)
-                    {
-                        // Malformed tag, break
-                        break;
-                    }
+                tmpText.maxVisibleCharacters++;
 
-                    string tag = fullText.Substring(i, tagEnd - i + 1);
-                    openTags += tag;
-                    i = tagEnd + 1;
+                char c = tmpText.textInfo.characterInfo[i].character;
+
+                // Optional: add small delay for punctuation
+                if (c == '.' || c == ',' || c == ':' || c == ';' ||
+                    c == '?' || c == '!' || c == '-')
+                {
+                    yield return new WaitForSeconds(typingSpeed * 3f); // slightly longer pause
                 }
                 else
                 {
-                    // Append next character with all accumulated open tags
-                    displayedText += fullText[i];
-                    tmpText.text = openTags + displayedText;
-                    i++;
-
                     yield return new WaitForSeconds(typingSpeed);
                 }
+
+                // If you implement a skip button:
+                if (skipRequested) break;
             }
 
-            // Ensure full text is displayed at the end
-            tmpText.text = fullText;
+            tmpText.maxVisibleCharacters = totalCharacters; // Ensure fully visible
         }
+
 
         // Optional: Add method to instantly show full text
         public void SkipAllTyping()
@@ -175,13 +168,6 @@ namespace TMKOC.StatesOfMatter
             m_nextBtn.gameObject.SetActive(true);
         }
 
-        private void EnableParticles()
-        {
-            m_particleParent.SetActive(true);
-            //m_particleParent.transform.localScale = Vector3.zero;
-            //m_particleParent.transform.DOScale(Vector3.one, 0.75f);
-        }
-
         private void EnableSlideImage(int index)
         {
             if (index < 0 || index >= m_slideImageList.Length)
@@ -191,11 +177,6 @@ namespace TMKOC.StatesOfMatter
             }
 
             m_slideImageList[index].gameObject.SetActive(true);
-        }
-
-        private void DisableParticles()
-        {
-            m_particleParent.SetActive(false);
         }
 
         private void DisableSlideImages()

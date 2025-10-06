@@ -2,7 +2,6 @@ using DG.Tweening;
 using Sirenix.OdinInspector;
 using System;
 using System.Collections;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 namespace TMKOC.StatesOfMatter
@@ -14,7 +13,7 @@ namespace TMKOC.StatesOfMatter
 
         private bool IsLivesOver = false;
 
-        private Animator m_animator;
+        [SerializeField] private Animator m_animator;
 
         private readonly int Idle = Animator.StringToHash("Idle");
         private readonly int Correct = Animator.StringToHash("Correct");
@@ -25,8 +24,9 @@ namespace TMKOC.StatesOfMatter
 
         private void Awake()
         {
-            m_animator = GetComponent<Animator>();
-            m_animator.Play(Idle);
+            if (m_animator == null)
+                m_animator = GetComponent<Animator>();
+            m_animator.Play(Idle, 0);
         }
 
         private void OnEnable()
@@ -65,7 +65,7 @@ namespace TMKOC.StatesOfMatter
         {
             IsLivesOver = false;
             isGameOver = false;
-            m_animator.Play(Idle);
+            m_animator.Play(Idle, 0);
             MoveInAndSpawn();
         }
 
@@ -90,12 +90,16 @@ namespace TMKOC.StatesOfMatter
 
         private void PlayEndingAnimation(bool isWon)
         {
+            Debug.Log("Check call");
+
             AnimatorStateInfo info;
             isGameOver = true;
 
             if (!isWon)
             {
                 m_animator.Play(Incorrect);
+                m_animator.SetBool("InCorrect", true);
+
                 info = m_animator.GetCurrentAnimatorStateInfo(0);
                 StartCoroutine(DelayedInvoke(info.length));
             }
@@ -103,12 +107,17 @@ namespace TMKOC.StatesOfMatter
 
         private void PlayEndWinAnimation()
         {
+            Debug.Log("Check call");
+
             AnimatorStateInfo info;
             isGameOver = true;
 
             transform.DOLocalMove(moveInPos, moveTweenTime).OnComplete(() =>
             {
                 m_animator.Play(Correct);
+                m_animator.SetBool("IsCorrect", true);
+
+
                 info = m_animator.GetCurrentAnimatorStateInfo(0);
 
                 StartCoroutine(DelayedInvoke(info.length));
@@ -120,9 +129,10 @@ namespace TMKOC.StatesOfMatter
         {
             yield return new WaitForSeconds(waitTime);
 
-            OnEndAnimationFinished?.Invoke();
-
-            MoveOut();
+            MoveOut(() =>
+            {
+                OnEndAnimationFinished?.Invoke();
+            });
         }
 
         [Button]
@@ -143,6 +153,13 @@ namespace TMKOC.StatesOfMatter
         public void MoveOut()
         {
             transform.DOLocalMove(moveOutPos, moveTweenTime).SetEase(Ease.InQuad);
+        }
+        public void MoveOut(System.Action callback)
+        {
+            transform.DOLocalMove(moveOutPos, moveTweenTime).SetEase(Ease.InQuad).OnComplete(() =>
+            {
+                callback?.Invoke();
+            });
         }
     }
 }

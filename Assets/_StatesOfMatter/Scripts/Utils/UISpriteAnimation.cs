@@ -13,8 +13,10 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] protected float speed = .02f;
         [SerializeField] protected int indexSprite;
         [SerializeField] protected bool loop;
+        [SerializeField] protected float loopDelay = 1.25f;
         [SerializeField] protected bool isPlaying;
         [SerializeField] protected bool playOnAwake;
+        [SerializeField] protected float initialDelay;
 
         public bool IsPlaying { get => isPlaying; set => isPlaying = value; }
         protected Coroutine coroutineAnim;
@@ -27,7 +29,7 @@ namespace TMKOC.StatesOfMatter
 
         private void OnEnable()
         {
-            if(playOnAwake)
+            if (playOnAwake)
             {
                 PlayUIAnim();
                 toggleFlag = !toggleFlag;
@@ -35,13 +37,14 @@ namespace TMKOC.StatesOfMatter
         }
 
         [Button]
-        public virtual void PlayUIAnim()
+        public void PlayUIAnim()
         {
             if (isPlaying) return;
+            InitialDelayFlag = false;
             coroutineAnim = StartCoroutine(PlayAnimUI_Coroutine());
         }
 
-        public virtual void StopUIAnim()
+        public void StopUIAnim()
         {
             StopCoroutine(PlayAnimUI_Coroutine());
         }
@@ -53,8 +56,16 @@ namespace TMKOC.StatesOfMatter
             toggleFlag = !toggleFlag;
         }
 
-        public virtual IEnumerator PlayAnimUI_Coroutine()
+        private bool InitialDelayFlag = false;
+
+        public IEnumerator PlayAnimUI_Coroutine()
         {
+            if (!InitialDelayFlag)
+            {
+                yield return new WaitForSeconds(initialDelay);
+                InitialDelayFlag = true;
+            }
+
             IsPlaying = true;
             yield return new WaitForSeconds(speed);
             if (indexSprite >= spriteArray.Length)  //end of animation...
@@ -69,7 +80,12 @@ namespace TMKOC.StatesOfMatter
                     // Debug.Log("anim end...");
                     yield break;   //run only once...
                 }
+                else
+                {
+                    yield return new WaitForSeconds(loopDelay);
+                }
             }
+
             image.sprite = spriteArray[indexSprite];
 
             indexSprite += 1;
@@ -77,7 +93,7 @@ namespace TMKOC.StatesOfMatter
         }
 
         [Button]
-        public virtual void StopAnimCoroutine()
+        public void StopAnimCoroutine()
         {
             if (coroutineAnim != null)
                 StopCoroutine(coroutineAnim);

@@ -13,7 +13,7 @@ public class LiquidParticleSpawner : MonoBehaviour
     private GameObject[] particles;
     private Vector2[] directions;
 
-    void Start()
+    private void Start()
     {
         particles = new GameObject[particleCount];
         directions = new Vector2[particleCount];
@@ -40,7 +40,7 @@ public class LiquidParticleSpawner : MonoBehaviour
         }
     }
 
-    void Update()
+    private void Update()
     {
         for (int i = 0; i < particleCount; i++)
         {

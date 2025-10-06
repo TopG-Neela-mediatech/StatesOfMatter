@@ -1,0 +1,1249 @@
+fileFormatVersion: 2
+guid: b0c5d4f2b17ae2e4196fdc059b849cb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7500459147281151775
+    second: SolidBlast_SpriteSheet_0
+  - first:
+      213: 543818257495100122
+    second: SolidBlast_SpriteSheet_1
+  - first:
+      213: 8639644517018108861
+    second: SolidBlast_SpriteSheet_2
+  - first:
+      213: 4280841371276182849
+    second: SolidBlast_SpriteSheet_3
+  - first:
+      213: -865664024552527736
+    second: SolidBlast_SpriteSheet_4
+  - first:
+      213: -9045721845437043253
+    second: SolidBlast_SpriteSheet_5
+  - first:
+      213: 2730029009975729596
+    second: SolidBlast_SpriteSheet_6
+  - first:
+      213: -4718019191218731567
+    second: SolidBlast_SpriteSheet_7
+  - first:
+      213: 577948565827924793
+    second: SolidBlast_SpriteSheet_8
+  - first:
+      213: 2974463537935510179
+    second: SolidBlast_SpriteSheet_9
+  - first:
+      213: -3377849116270442776
+    second: SolidBlast_SpriteSheet_10
+  - first:
+      213: -6265572280360843167
+    second: SolidBlast_SpriteSheet_11
+  - first:
+      213: 6656258645187335103
+    second: SolidBlast_SpriteSheet_12
+  - first:
+      213: 8680666066962362880
+    second: SolidBlast_SpriteSheet_13
+  - first:
+      213: 2090882657358288202
+    second: SolidBlast_SpriteSheet_14
+  - first:
+      213: 363626218759390345
+    second: SolidBlast_SpriteSheet_15
+  - first:
+      213: 8833660761099184019
+    second: SolidBlast_SpriteSheet_16
+  - first:
+      213: -6748218837103675544
+    second: SolidBlast_SpriteSheet_17
+  - first:
+      213: 572874760758377982
+    second: SolidBlast_SpriteSheet_18
+  - first:
+      213: 1499810325113361506
+    second: SolidBlast_SpriteSheet_19
+  - first:
+      213: 430379893046360048
+    second: SolidBlast_SpriteSheet_20
+  - first:
+      213: 750284610715776146
+    second: SolidBlast_SpriteSheet_21
+  - first:
+      213: -6247892648859879208
+    second: SolidBlast_SpriteSheet_22
+  - first:
+      213: 1773955115137965467
+    second: SolidBlast_SpriteSheet_23
+  - first:
+      213: -8270411455024498755
+    second: SolidBlast_SpriteSheet_24
+  - first:
+      213: -961732224410594292
+    second: SolidBlast_SpriteSheet_25
+  - first:
+      213: 3328161371716558721
+    second: SolidBlast_SpriteSheet_26
+  - first:
+      213: -2014013522758715941
+    second: SolidBlast_SpriteSheet_27
+  - first:
+      213: 8225329649170005651
+    second: SolidBlast_SpriteSheet_28
+  - first:
+      213: -2497879215102395881
+    second: SolidBlast_SpriteSheet_29
+  - first:
+      213: -4918602777399330560
+    second: SolidBlast_SpriteSheet_30
+  - first:
+      213: -1462598135755457077
+    second: SolidBlast_SpriteSheet_31
+  - first:
+      213: -7891424262786316151
+    second: SolidBlast_SpriteSheet_32
+  - first:
+      213: 6411820519037865055
+    second: SolidBlast_SpriteSheet_33
+  - first:
+      213: 5970793531283022607
+    second: SolidBlast_SpriteSheet_34
+  - first:
+      213: 6572550358784893626
+    second: SolidBlast_SpriteSheet_35
+  - first:
+      213: -5740700919154781264
+    second: SolidBlast_SpriteSheet_36
+  - first:
+      213: -8503174156734812808
+    second: SolidBlast_SpriteSheet_37
+  - first:
+      213: 8747985777324610737
+    second: SolidBlast_SpriteSheet_38
+  - first:
+      213: 7235307322812067199
+    second: SolidBlast_SpriteSheet_39
+  - first:
+      213: -6991143526088286592
+    second: SolidBlast_SpriteSheet_40
+  - first:
+      213: -4676528691939845135
+    second: SolidBlast_SpriteSheet_41
+  - first:
+      213: -939050171100602215
+    second: SolidBlast_SpriteSheet_42
+  - first:
+      213: -6070818269221593034
+    second: SolidBlast_SpriteSheet_43
+  - first:
+      213: 2188913457414587194
+    second: SolidBlast_SpriteSheet_44
+  - first:
+      213: -5690065976817883720
+    second: SolidBlast_SpriteSheet_45
+  - first:
+      213: 8561129318910093195
+    second: SolidBlast_SpriteSheet_46
+  - first:
+      213: 8209957278821081700
+    second: SolidBlast_SpriteSheet_47
+  - first:
+      213: -1103337239212108592
+    second: SolidBlast_SpriteSheet_48
+  - first:
+      213: 4292351529956148697
+    second: SolidBlast_SpriteSheet_49
+  - first:
+      213: -5827107840445963376
+    second: SolidBlast_SpriteSheet_50
+  - first:
+      213: -739222775434741303
+    second: SolidBlast_SpriteSheet_51
+  - first:
+      213: -4463595134765817130
+    second: SolidBlast_SpriteSheet_52
+  - first:
+      213: 17255748153617766
+    second: SolidBlast_SpriteSheet_53
+  - first:
+      213: -4948627495102134421
+    second: SolidBlast_SpriteSheet_54
+  - first:
+      213: -8858693486268120094
+    second: SolidBlast_SpriteSheet_55
+  - first:
+      213: 8297695978829625018
+    second: SolidBlast_SpriteSheet_56
+  - first:
+      213: -7374657812733159645
+    second: SolidBlast_SpriteSheet_57
+  - first:
+      213: 6044488272498089289
+    second: SolidBlast_SpriteSheet_58
+  - first:
+      213: 4573534098895151535
+    second: SolidBlast_SpriteSheet_59
+  - first:
+      213: -7234004415028368710
+    second: SolidBlast_SpriteSheet_60
+  - first:
+      213: 6426103719498030223
+    second: SolidBlast_SpriteSheet_61
+  - first:
+      213: -5631370339608537088
+    second: SolidBlast_SpriteSheet_62
+  - first:
+      213: -6396877346577788764
+    second: SolidBlast_SpriteSheet_63
+  - first:
+      213: 9031766366611156180
+    second: SolidBlast_SpriteSheet_64
+  - first:
+      213: -4068684898660097625
+    second: SolidBlast_SpriteSheet_65
+  - first:
+      213: 8844543082137447431
+    second: SolidBlast_SpriteSheet_66
+  - first:
+      213: 6386951743987040177
+    second: SolidBlast_SpriteSheet_67
+  - first:
+      213: 4550040728808603400
+    second: SolidBlast_SpriteSheet_68
+  - first:
+      213: -8678685849845727724
+    second: SolidBlast_SpriteSheet_69
+  - first:
+      213: -2493473615217672328
+    second: SolidBlast_SpriteSheet_70
+  - first:
+      213: -7196601156590187895
+    second: SolidBlast_SpriteSheet_71
+  - first:
+      213: -6051963939957516555
+    second: SolidBlast_SpriteSheet_72
+  - first:
+      213: 2716027005130690832
+    second: SolidBlast_SpriteSheet_73
+  - first:
+      213: 8754039406158973675
+    second: SolidBlast_SpriteSheet_74
+  - first:
+      213: -3946596033252599064
+    second: SolidBlast_SpriteSheet_75
+  - first:
+      213: -4897849003800012954
+    second: SolidBlast_SpriteSheet_76
+  - first:
+      213: 5149884997839814606
+    second: SolidBlast_SpriteSheet_77
+  - first:
+      213: -73342075606617015
+    second: SolidBlast_SpriteSheet_78
+  - first:
+      213: 375899623312488790
+    second: SolidBlast_SpriteSheet_79
+  - first:
+      213: -6974395780108684146
+    second: SolidBlast_SpriteSheet_80
+  - first:
+      213: 7067990497684724401
+    second: SolidBlast_SpriteSheet_81
+  - first:
+      213: 644784409111325053
+    second: SolidBlast_SpriteSheet_82
+  - first:
+      213: 997825010324067660
+    second: SolidBlast_SpriteSheet_83
+  - first:
+      213: -2011555070759324732
+    second: SolidBlast_SpriteSheet_84
+  - first:
+      213: -6907701209396495729
+    second: SolidBlast_SpriteSheet_85
+  - first:
+      213: -5173188889198434963
+    second: SolidBlast_SpriteSheet_86
+  - first:
+      213: 1837674632090870342
+    second: SolidBlast_SpriteSheet_87
+  - first:
+      213: -3012127126544852779
+    second: SolidBlast_SpriteSheet_88
+  - first:
+      213: -6877887791940505289
+    second: SolidBlast_SpriteSheet_89
+  - first:
+      213: -9222275027580161207
+    second: SolidBlast_SpriteSheet_90
+  - first:
+      213: -3672245549462023280
+    second: SolidBlast_SpriteSheet_91
+  - first:
+      213: 8849246174603366360
+    second: SolidBlast_SpriteSheet_92
+  - first:
+      213: -6015785393973644332
+    second: SolidBlast_SpriteSheet_93
+  - first:
+      213: -1376846944253796741
+    second: SolidBlast_SpriteSheet_94
+  - first:
+      213: 1368097839630592921
+    second: SolidBlast_SpriteSheet_95
+  - first:
+      213: 6577785469081899554
+    second: SolidBlast_SpriteSheet_96
+  - first:
+      213: 4062076562434099370
+    second: SolidBlast_SpriteSheet_97
+  - first:
+      213: 8438954985748488525
+    second: SolidBlast_SpriteSheet_98
+  - first:
+      213: 9181977449925526075
+    second: SolidBlast_SpriteSheet_99
+  - first:
+      213: 7812660081772748304
+    second: SolidBlast_SpriteSheet_100
+  - first:
+      213: -5985803607141380740
+    second: SolidBlast_SpriteSheet_101
+  - first:
+      213: 7261684485251116989
+    second: SolidBlast_SpriteSheet_102
+  - first:
+      213: -5506500727144633037
+    second: SolidBlast_SpriteSheet_103
+  - first:
+      213: -753927275809672350
+    second: SolidBlast_SpriteSheet_104
+  - first:
+      213: -39711716652504454
+    second: SolidBlast_SpriteSheet_105
+  - first:
+      213: -6014435682740484737
+    second: SolidBlast_SpriteSheet_106
+  - first:
+      213: -6400328641963655210
+    second: SolidBlast_SpriteSheet_107
+  - first:
+      213: -6850681367049665957
+    second: SolidBlast_SpriteSheet_108
+  - first:
+      213: 493191154968577211
+    second: SolidBlast_SpriteSheet_109
+  - first:
+      213: 6415189587008149739
+    second: SolidBlast_SpriteSheet_110
+  - first:
+      213: -2441602342501691692
+    second: SolidBlast_SpriteSheet_111
+  - first:
+      213: -6636938425556281475
+    second: SolidBlast_SpriteSheet_112
+  - first:
+      213: 3055203009524010891
+    second: SolidBlast_SpriteSheet_113
+  - first:
+      213: -4830777355333033165
+    second: SolidBlast_SpriteSheet_114
+  - first:
+      213: 482602536725075726
+    second: SolidBlast_SpriteSheet_115
+  - first:
+      213: 6044646018593921930
+    second: SolidBlast_SpriteSheet_116
+  - first:
+      213: -2047605933420329362
+    second: SolidBlast_SpriteSheet_117
+  - first:
+      213: 6764464043754093634
+    second: SolidBlast_SpriteSheet_118
+  - first:
+      213: 1835316044187189625
+    second: SolidBlast_SpriteSheet_119
+  - first:
+      213: -6400798182066411280
+    second: SolidBlast_SpriteSheet_120
+  - first:
+      213: 7526616210102838897
+    second: SolidBlast_SpriteSheet_121
+  - first:
+      213: 1919824184183987360
+    second: SolidBlast_SpriteSheet_122
+  - first:
+      213: 7587849742508054183
+    second: SolidBlast_SpriteSheet_123
+  - first:
+      213: 8333055049862397109
+    second: SolidBlast_SpriteSheet_124
+  - first:
+      213: -6186784847092700013
+    second: SolidBlast_SpriteSheet_125
+  - first:
+      213: 3820869262860992342
+    second: SolidBlast_SpriteSheet_126
+  - first:
+      213: -4598468605815473930
+    second: SolidBlast_SpriteSheet_127
+  - first:
+      213: 3431168270373865387
+    second: SolidBlast_SpriteSheet_128
+  - first:
+      213: 2023648259388923185
+    second: SolidBlast_SpriteSheet_129
+  - first:
+      213: -602365917068553428
+    second: SolidBlast_SpriteSheet_130
+  - first:
+      213: -7243312123703369261
+    second: SolidBlast_SpriteSheet_131
+  - first:
+      213: 8352458592306996423
+    second: SolidBlast_SpriteSheet_132
+  - first:
+      213: 8800852976210245898
+    second: SolidBlast_SpriteSheet_133
+  - first:
+      213: -3944970319922326727
+    second: SolidBlast_SpriteSheet_134
+  - first:
+      213: 7451597488027845844
+    second: SolidBlast_SpriteSheet_135
+  - first:
+      213: 9145799233427542076
+    second: SolidBlast_SpriteSheet_136
+  - first:
+      213: 2425221362836275643
+    second: SolidBlast_SpriteSheet_137
+  - first:
+      213: 3847229054066185246
+    second: SolidBlast_SpriteSheet_138
+  - first:
+      213: -5115516482441612643
+    second: SolidBlast_SpriteSheet_139
+  - first:
+      213: -1951081266876322064
+    second: SolidBlast_SpriteSheet_140
+  - first:
+      213: 740677670667563235
+    second: SolidBlast_SpriteSheet_141
+  - first:
+      213: -5303449620771430517
+    second: SolidBlast_SpriteSheet_142
+  - first:
+      213: 1397280373635066249
+    second: SolidBlast_SpriteSheet_143
+  - first:
+      213: 849934784319616262
+    second: SolidBlast_SpriteSheet_144
+  - first:
+      213: -5586109216590548191
+    second: SolidBlast_SpriteSheet_145
+  - first:
+      213: -1320818844531766440
+    second: SolidBlast_SpriteSheet_146
+  - first:
+      213: 6225549089445699886
+    second: SolidBlast_SpriteSheet_147
+  - first:
+      213: 2428545878934321124
+    second: SolidBlast_SpriteSheet_148
+  - first:
+      213: -1141973464103558126
+    second: SolidBlast_SpriteSheet_149
+  - first:
+      213: 8478047832184345610
+    second: SolidBlast_SpriteSheet_150
+  - first:
+      213: -3520549672519665631
+    second: SolidBlast_SpriteSheet_151
+  - first:
+      213: 5888633865947453791
+    second: SolidBlast_SpriteSheet_152
+  - first:
+      213: -5350502204618766913
+    second: SolidBlast_SpriteSheet_153
+  - first:
+      213: -6326155925101618821
+    second: SolidBlast_SpriteSheet_154
+  - first:
+      213: 7362341978883733783
+    second: SolidBlast_SpriteSheet_155
+  - first:
+      213: 4977444389235185654
+    second: SolidBlast_SpriteSheet_156
+  - first:
+      213: 9212986136903115120
+    second: SolidBlast_SpriteSheet_157
+  - first:
+      213: -4501462971112030171
+    second: SolidBlast_SpriteSheet_158
+  - first:
+      213: -6428369365841012656
+    second: SolidBlast_SpriteSheet_159
+  - first:
+      213: -6624250839198558271
+    second: SolidBlast_SpriteSheet_160
+  - first:
+      213: -4265464055854586617
+    second: SolidBlast_SpriteSheet_161
+  - first:
+      213: -3090695714851550129
+    second: SolidBlast_SpriteSheet_162
+  - first:
+      213: -2613619104634964904
+    second: SolidBlast_SpriteSheet_163
+  - first:
+      213: -137582573244167868
+    second: SolidBlast_SpriteSheet_164
+  - first:
+      213: -5264934804606232926
+    second: SolidBlast_SpriteSheet_165
+  - first:
+      213: -7091862830215743358
+    second: SolidBlast_SpriteSheet_166
+  - first:
+      213: 3663526350845192817
+    second: SolidBlast_SpriteSheet_167
+  - first:
+      213: 6692148358904537348
+    second: SolidBlast_SpriteSheet_168
+  - first:
+      213: -2989491057386372956
+    second: SolidBlast_SpriteSheet_169
+  - first:
+      213: 3870840835845931144
+    second: SolidBlast_SpriteSheet_170
+  - first:
+      213: 4046522868567667545
+    second: SolidBlast_SpriteSheet_171
+  - first:
+      213: -2602090824887738446
+    second: SolidBlast_SpriteSheet_172
+  - first:
+      213: -8709642712584119626
+    second: SolidBlast_SpriteSheet_173
+  - first:
+      213: -859240172850660030
+    second: SolidBlast_SpriteSheet_174
+  - first:
+      213: -5673048259739866472
+    second: SolidBlast_SpriteSheet_175
+  - first:
+      213: 2796536420392573052
+    second: SolidBlast_SpriteSheet_176
+  - first:
+      213: 4500687889030660955
+    second: SolidBlast_SpriteSheet_177
+  - first:
+      213: 7327846095450272439
+    second: SolidBlast_SpriteSheet_178
+  - first:
+      213: -3745201711012058955
+    second: SolidBlast_SpriteSheet_179
+  - first:
+      213: 4019271092238801321
+    second: SolidBlast_SpriteSheet_180
+  - first:
+      213: 1483420860528969896
+    second: SolidBlast_SpriteSheet_181
+  - first:
+      213: 6601898718169250239
+    second: SolidBlast_SpriteSheet_182
+  - first:
+      213: 4349211026802718299
+    second: SolidBlast_SpriteSheet_183
+  - first:
+      213: -7283848207143862899
+    second: SolidBlast_SpriteSheet_184
+  - first:
+      213: 1590158387569368054
+    second: SolidBlast_SpriteSheet_185
+  - first:
+      213: -866753020640067621
+    second: SolidBlast_SpriteSheet_186
+  - first:
+      213: -8268267135261667011
+    second: SolidBlast_SpriteSheet_187
+  - first:
+      213: 3272520260850532050
+    second: SolidBlast_SpriteSheet_188
+  - first:
+      213: 1160521011322993544
+    second: SolidBlast_SpriteSheet_189
+  - first:
+      213: -3719840091854553712
+    second: SolidBlast_SpriteSheet_190
+  - first:
+      213: -5927120028450893011
+    second: SolidBlast_SpriteSheet_191
+  - first:
+      213: 5762599092021994575
+    second: SolidBlast_SpriteSheet_192
+  - first:
+      213: 5562130472990009159
+    second: SolidBlast_SpriteSheet_193
+  - first:
+      213: 6307028698459434720
+    second: SolidBlast_SpriteSheet_194
+  - first:
+      213: 8662266305518738093
+    second: SolidBlast_SpriteSheet_195
+  - first:
+      213: -8591882126576063989
+    second: SolidBlast_SpriteSheet_196
+  - first:
+      213: -4196723959632076587
+    second: SolidBlast_SpriteSheet_197
+  - first:
+      213: -8130711736598362684
+    second: SolidBlast_SpriteSheet_198
+  - first:
+      213: -6405189489582375244
+    second: SolidBlast_SpriteSheet_199
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03f6c18a83827043bd2f9cd4890f1eb
+      internalID: 367972046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740217926c972b54bb6ae66ba0cb855c
+      internalID: -1870487024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578cd5df676fe364abcae59f51e61dca
+      internalID: 620710264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce46e992bc2203a4c8d167da385df005
+      internalID: -2142235624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f7fb5833821c469d67770eac86917
+      internalID: -340761260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc9c02f1163f0b4589443ccf559fe22
+      internalID: 880938552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573d2f330bc53547a2b0b7c1fa18caa
+      internalID: -1464393000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802ed278c4a30e64a83e0837623304d6
+      internalID: -1088945440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7a113e8b6739143b915d1d8900928a
+      internalID: -595494426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72857372c45faf143b4aeb6a1aeb191e
+      internalID: 1037365305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb0c0da929f91b45b407163a0380b1f
+      internalID: 1305303781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a59f2e10889ba4fa9cefa4309d5e80
+      internalID: 1043740207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d751e7c8a4192c4d943dcd60ddb0868
+      internalID: -132934703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adadcb8839937439428386eb06dc6e
+      internalID: -503654182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea3d82930437bb4e8283e31654fc05f
+      internalID: -301458227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfa31c5b380dae43b1a889f920a431b
+      internalID: -130637591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b949ee6a50a23d04492605cea4526250
+      internalID: -1399454460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784944dc97e77c3478f1be939ffa2073
+      internalID: 412452192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df456c0d914ff64a96cf8112faca628
+      internalID: 2138879885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9509816c4257724d9f68a5a59e4662b
+      internalID: -279840905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f962300d085954147971db389f8b5f04
+      internalID: -808026983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SolidBlast_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767a2225cb276ab4fa78df9971afacd5
+      internalID: 1028226803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7249bfdc1fa065242a0c753b3e29f5e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SolidBlast_SpriteSheet_0: 367972046
+      SolidBlast_SpriteSheet_1: -1870487024
+      SolidBlast_SpriteSheet_10: 1305303781
+      SolidBlast_SpriteSheet_11: 1043740207
+      SolidBlast_SpriteSheet_12: -132934703
+      SolidBlast_SpriteSheet_13: -503654182
+      SolidBlast_SpriteSheet_14: -301458227
+      SolidBlast_SpriteSheet_15: -130637591
+      SolidBlast_SpriteSheet_16: -1399454460
+      SolidBlast_SpriteSheet_17: 412452192
+      SolidBlast_SpriteSheet_18: 2138879885
+      SolidBlast_SpriteSheet_19: -279840905
+      SolidBlast_SpriteSheet_2: 620710264
+      SolidBlast_SpriteSheet_20: -808026983
+      SolidBlast_SpriteSheet_21: 1028226803
+      SolidBlast_SpriteSheet_3: -2142235624
+      SolidBlast_SpriteSheet_4: -340761260
+      SolidBlast_SpriteSheet_5: 880938552
+      SolidBlast_SpriteSheet_6: -1464393000
+      SolidBlast_SpriteSheet_7: -1088945440
+      SolidBlast_SpriteSheet_8: -595494426
+      SolidBlast_SpriteSheet_9: 1037365305
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

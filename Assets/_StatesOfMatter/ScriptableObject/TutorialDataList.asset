@@ -13,20 +13,23 @@ MonoBehaviour:
   m_Name: TutorialDataList
   m_EditorClassIdentifier: 
   TutorialList:
-  - Heading: 'What is Matter? '
+  - Index: 0
+    Heading: 'What is Matter? '
     PrimaryText1: "<b>Everything around us is made of matter!</b>\r"
     PrimaryText2: Matter is anything that has weight and takes up space.
     SecondaryText: You, me, your toys, and even the air we breathe are all made of
       matter.
     Sprite: {fileID: -6195467565271082092, guid: 69d627ff808fa7649b440a7ed4fc3489, type: 3}
-  - Heading: Matter is Made of Tiny Particles!
+  - Index: 1
+    Heading: Matter is Made of Tiny Particles!
     PrimaryText1: "Matter is made up of tiny particles called atoms!\r"
     PrimaryText2: These tiny particles are always moving and form the building blocks
       of matter
     SecondaryText: The way tiny particles are packed together decides the state of
       matter
     Sprite: {fileID: -2117401660, guid: 69d627ff808fa7649b440a7ed4fc3489, type: 3}
-  - Heading: Mass & Volume
+  - Index: 2
+    Heading: Mass & Volume
     PrimaryText1: Mass is how much stuff is in something, like how heavy your backpack
       is.
     PrimaryText2: Volume is how much space something takes up, like how big a water
@@ -34,13 +37,15 @@ MonoBehaviour:
     SecondaryText: <b>Mass</b> and <b>volume</b> are the two important features of
       any matter.
     Sprite: {fileID: 21300000, guid: a329f86a6afc1354086390b460986650, type: 3}
-  - Heading: Solids
+  - Index: 3
+    Heading: Solids
     PrimaryText1: In a solid state matter will almost always keep their own shape
     PrimaryText2: "They are strong and don\u2019t change shape unless you break them.\r\r\n"
     SecondaryText: "The tiny particles in solids are packed tightly and don\u2019t
       move around much."
     Sprite: {fileID: -5919014163272618242, guid: c1692063da2c5b94b84f63e4820b12ca, type: 3}
-  - Heading: Liquids
+  - Index: 4
+    Heading: Liquids
     PrimaryText1: "Liquids don\u2019t have their own shape and take the shape of
       their container."
     PrimaryText2: 'Particles in liquids are close but can slide past each other.
@@ -49,7 +54,8 @@ MonoBehaviour:
     SecondaryText: This allows them to move around and be poured from one container
       to another.
     Sprite: {fileID: 4447268244589035467, guid: 0e338b02a2bbb8e4385189d179154e83, type: 3}
-  - Heading: Gases
+  - Index: 5
+    Heading: Gases
     PrimaryText1: "Even though we can\u2019t always see gases, they are all around
       us."
     PrimaryText2: "They float and spread out to fill the space around them.\r\t"
