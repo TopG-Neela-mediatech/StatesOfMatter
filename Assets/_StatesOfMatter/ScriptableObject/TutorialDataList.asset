@@ -38,14 +38,14 @@ MonoBehaviour:
       any matter.
     Sprite: {fileID: 21300000, guid: a329f86a6afc1354086390b460986650, type: 3}
   - Index: 3
-    Heading: Solids
+    Heading: Solid
     PrimaryText1: In a solid state matter will almost always keep their own shape
     PrimaryText2: "They are strong and don\u2019t change shape unless you break them.\r\r\n"
     SecondaryText: "The tiny particles in solids are packed tightly and don\u2019t
       move around much."
     Sprite: {fileID: -5919014163272618242, guid: c1692063da2c5b94b84f63e4820b12ca, type: 3}
   - Index: 4
-    Heading: Liquids
+    Heading: Liquid
     PrimaryText1: "Liquids don\u2019t have their own shape and take the shape of
       their container."
     PrimaryText2: 'Particles in liquids are close but can slide past each other.
@@ -55,7 +55,7 @@ MonoBehaviour:
       to another.
     Sprite: {fileID: 4447268244589035467, guid: 0e338b02a2bbb8e4385189d179154e83, type: 3}
   - Index: 5
-    Heading: Gases
+    Heading: Gas
     PrimaryText1: "Even though we can\u2019t always see gases, they are all around
       us."
     PrimaryText2: "They float and spread out to fill the space around them.\r\t"

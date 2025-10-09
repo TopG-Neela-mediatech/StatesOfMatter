@@ -1,6 +1,7 @@
 using Sirenix.OdinInspector;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -17,93 +18,169 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] protected bool isPlaying;
         [SerializeField] protected bool playOnAwake;
         [SerializeField] protected float initialDelay;
+        [SerializeField] protected bool canPause;
+
+        private bool isPaused = false;
+        private bool toggleFlag = false;
+        protected Coroutine coroutineAnim;
+
+        // Optional: Events for external systems to hook into
+        [FoldoutGroup("Events")] public UnityEvent onAnimationComplete;
+        [FoldoutGroup("Events")] public UnityEvent onAnimationLoop;
 
         public bool IsPlaying { get => isPlaying; set => isPlaying = value; }
-        protected Coroutine coroutineAnim;
-        private bool toggleFlag = false;
+        public bool IsPaused => isPaused;
 
         private void Awake()
         {
-            StopAnimCoroutine();
+            // Validate references
+            if (image == null)
+            {
+                Debug.LogError($"Image reference is missing on {gameObject.name}", this);
+                enabled = false;
+                return;
+            }
+
+            if (spriteArray == null || spriteArray.Length == 0)
+            {
+                Debug.LogError($"Sprite array is empty on {gameObject.name}", this);
+                enabled = false;
+                return;
+            }
+
+            StopUIAnim();
         }
 
         private void OnEnable()
         {
-            if (playOnAwake)
+            if (playOnAwake && !isPlaying)
             {
                 PlayUIAnim();
-                toggleFlag = !toggleFlag;
             }
         }
 
-        [Button]
-        public void PlayUIAnim()
+        private void OnDisable()
         {
-            if (isPlaying) return;
-            InitialDelayFlag = false;
-            coroutineAnim = StartCoroutine(PlayAnimUI_Coroutine());
+            // Clean up coroutine when disabled
+            if (coroutineAnim != null)
+            {
+                StopCoroutine(coroutineAnim);
+                coroutineAnim = null;
+            }
         }
 
-        public void StopUIAnim()
+        public void PlayUIAnim()
         {
-            StopCoroutine(PlayAnimUI_Coroutine());
+            // Already playing and not paused - do nothing
+            if (isPlaying && !isPaused)
+                return;
+
+            if (isPlaying && isPaused)
+            {
+                // Resume from pause
+                isPaused = false;
+            }
+            else
+            {
+                // Start playing new animation
+                isPlaying = true;
+                isPaused = false;
+
+                // Stop any existing coroutine before starting new one
+                if (coroutineAnim != null)
+                    StopCoroutine(coroutineAnim);
+
+                coroutineAnim = StartCoroutine(PlayAnimUI_Coroutine());
+            }
+        }
+
+        public void PauseUIAnim()
+        {
+            if (isPlaying && !isPaused)
+            {
+                isPaused = true;
+            }
         }
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            if (!toggleFlag) PlayUIAnim();
-            else StopAnimCoroutine();
+            if (!canPause) return;
+
+            if (!toggleFlag)
+                PlayUIAnim();
+            else
+                PauseUIAnim();
+
             toggleFlag = !toggleFlag;
         }
 
-        private bool InitialDelayFlag = false;
-
-        public IEnumerator PlayAnimUI_Coroutine()
+        private IEnumerator PlayAnimUI_Coroutine()
         {
-            if (!InitialDelayFlag)
-            {
+            // Apply initial delay only on first start
+            if (initialDelay > 0)
                 yield return new WaitForSeconds(initialDelay);
-                InitialDelayFlag = true;
-            }
 
-            IsPlaying = true;
-            yield return new WaitForSeconds(speed);
-            if (indexSprite >= spriteArray.Length)  //end of animation...
+            while (isPlaying)
             {
-                IsPlaying = false;
-                indexSprite = 0;
-                // yield return new WaitForSeconds(2);
+                // Wait while paused
+                while (isPaused)
+                    yield return null;
 
-                image.sprite = spriteArray[indexSprite];   //reset to first frame...    
-                if (!loop)
+                // Check if we've reached the end
+                if (indexSprite >= spriteArray.Length)
                 {
-                    // Debug.Log("anim end...");
-                    yield break;   //run only once...
+                    if (!loop)
+                    {
+                        isPlaying = false;
+                        onAnimationComplete?.Invoke();
+                        yield break;
+                    }
+
+                    // Loop back to start
+                    indexSprite = 0;
+                    onAnimationLoop?.Invoke();
+
+                    if (loopDelay > 0)
+                        yield return new WaitForSeconds(loopDelay);
                 }
-                else
-                {
-                    yield return new WaitForSeconds(loopDelay);
-                }
+
+                // Update sprite
+                image.sprite = spriteArray[indexSprite];
+                indexSprite++;
+
+                yield return new WaitForSeconds(speed);
             }
-
-            image.sprite = spriteArray[indexSprite];
-
-            indexSprite += 1;
-            coroutineAnim = StartCoroutine(PlayAnimUI_Coroutine());
         }
 
-        [Button]
-        public void StopAnimCoroutine()
+        public void StopUIAnim()
         {
             if (coroutineAnim != null)
+            {
                 StopCoroutine(coroutineAnim);
-            coroutineAnim = null;
-            indexSprite = 0;
-            image.sprite = spriteArray[0];
+                coroutineAnim = null;
+            }
+
             isPlaying = false;
+            isPaused = false;
+            indexSprite = 0;
+
+            // Safely set to first sprite
+            if (spriteArray != null && spriteArray.Length > 0 && image != null)
+                image.sprite = spriteArray[0];
+        }
+
+        // Utility method to restart animation from beginning
+        [Button("Restart Animation")]
+        public void RestartUIAnim()
+        {
+            StopUIAnim();
+            PlayUIAnim();
+        }
+
+        // Utility method to set animation speed at runtime
+        public void SetSpeed(float newSpeed)
+        {
+            speed = Mathf.Max(0.001f, newSpeed); // Prevent negative or zero speed
         }
     }
-
-
-
 }

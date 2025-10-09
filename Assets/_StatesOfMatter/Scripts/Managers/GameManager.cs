@@ -32,12 +32,10 @@ namespace TMKOC.StatesOfMatter
 
             if (_skipTutorial)
             {
-                OnTutorialEnd?.Invoke();
-                OnGameStart?.Invoke();
+                SkipTutorial();
                 return;
             }
             OnTutorialStart?.Invoke();
-
         }
 
         private void OnEnable()
@@ -178,6 +176,12 @@ namespace TMKOC.StatesOfMatter
             var item = matterSO.GetItem(currentIndex);
             OnRequestNextItem?.Invoke(item);
             currentIndex++;
+        }
+
+        public void SkipTutorial()
+        {
+            OnTutorialEnd?.Invoke();
+            OnGameStart?.Invoke();
         }
 
     }
