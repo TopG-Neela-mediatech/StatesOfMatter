@@ -26,6 +26,8 @@ namespace TMKOC.StatesOfMatter
         [SerializeField] private Canvas m_tutorialCanvas;
 
 
+        [SerializeField] private PlayschoolController m_playschoolController;
+
         private WaitForSeconds waitTimer;
 
         private void OnEnable()
@@ -65,7 +67,11 @@ namespace TMKOC.StatesOfMatter
 
         private void EnableGameEndPanels()
         {
-            m_winPanel.SetActive(endToggle);
+            if (endToggle)
+            {
+                m_playschoolController.SaveStarOnFinish();
+            }
+
             m_losePanel.SetActive(!endToggle);
         }
 

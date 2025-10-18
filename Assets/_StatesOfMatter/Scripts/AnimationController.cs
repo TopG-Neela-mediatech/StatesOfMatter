@@ -27,6 +27,7 @@ namespace TMKOC.StatesOfMatter
             if (m_animator == null)
                 m_animator = GetComponent<Animator>();
             m_animator.Play(Idle, 0);
+
         }
 
         private void OnEnable()

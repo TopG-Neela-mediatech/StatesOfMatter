@@ -22,7 +22,6 @@ namespace TMKOC.StatesOfMatter
         public void SpawnNextItem(ItemData data)
         {
             currentSpawnedItem = Instantiate(itemPrefab, spawnParent);
-
             currentSpawnedItem.SetResetType(false);
             currentSpawnedItem.SetInfo(data);
             currentSpawnedItem.ToggleTextObj(false);

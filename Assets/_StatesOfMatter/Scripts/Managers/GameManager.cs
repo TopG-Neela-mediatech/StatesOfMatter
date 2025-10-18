@@ -106,7 +106,7 @@ namespace TMKOC.StatesOfMatter
 
         public void GoBackToPlayschool()
         {
-            //SceneManager.LoadScene(TMKOCPlaySchoolConstants.TMKOCPlayMainMenu);
+            SceneManager.LoadScene(TMKOCPlaySchoolConstants.TMKOCPlayMainMenu);
         }
 
         private IEnumerator DelayedStart(float delay)

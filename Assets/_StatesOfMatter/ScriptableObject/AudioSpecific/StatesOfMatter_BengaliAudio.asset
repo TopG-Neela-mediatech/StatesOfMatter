@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d15ca180db70ad4bb5eacecd63c34bf, type: 3}
+  m_Name: StatesOfMatter_BengaliAudio
+  m_EditorClassIdentifier: 
+  AudioList:
+  - AudioType: 0
+    Clip:
+    - {fileID: 8300000, guid: 8fdbeaa2fdf70444fb20fa13ac0c3837, type: 3}
+  - AudioType: 1
+    Clip:
+    - {fileID: 8300000, guid: 2c40ab7a334674443bb9f53515892ed0, type: 3}
+  - AudioType: 2
+    Clip:
+    - {fileID: 8300000, guid: ce4898046cc09074e9007639f8027dc5, type: 3}
+    - {fileID: 8300000, guid: 05fcc08086fdd8143b6e27c4df10ccb4, type: 3}
+    - {fileID: 8300000, guid: 63228875b6aac3f43872999453d5d5f3, type: 3}
+    - {fileID: 8300000, guid: 4ad5e12b49aeecc479bab869cd4f19e8, type: 3}
+    - {fileID: 8300000, guid: 96fd0a30f157a664d953eba0d5b0b5a5, type: 3}
+    - {fileID: 8300000, guid: e88ec2545569cb94a9213c38a49564b6, type: 3}
+  - AudioType: 3
+    Clip:
+    - {fileID: 8300000, guid: 9a15fb44d4004f4479e69de22e62abca, type: 3}
+    - {fileID: 8300000, guid: 377accbf6e3d2354a805cf67839eae33, type: 3}
+    - {fileID: 8300000, guid: 063f6c851ec94aa4f8a18245cd24fac5, type: 3}
+    - {fileID: 8300000, guid: 53cb88837f0633e43b600f30f7bb62d0, type: 3}
+    - {fileID: 8300000, guid: fbe2eefbae7bd1c4f966e2900e40493f, type: 3}
+    - {fileID: 8300000, guid: 4a95a1380c372114c8cd1246ea35da70, type: 3}
+    - {fileID: 8300000, guid: 7a660e9c13386704582d603c08582168, type: 3}
+    - {fileID: 8300000, guid: 6529b9b037322e341ad4a2c61a03100a, type: 3}
+    - {fileID: 8300000, guid: 478f4104e13077142bbe038785bb544c, type: 3}
+    - {fileID: 8300000, guid: ee34e3133b33a444099831be6a1e3a15, type: 3}
+    - {fileID: 8300000, guid: f5db2e5ec291554458dbd9d30ab10723, type: 3}
+  - AudioType: 5
+    Clip:
+    - {fileID: 8300000, guid: af6475a43ff437145a30e60a28c798c2, type: 3}
+    - {fileID: 8300000, guid: 15be2ddb89698fb42b837f633b954574, type: 3}
+    - {fileID: 8300000, guid: dae878f0e5708fd48ae8a0bc1971c6c5, type: 3}
+    - {fileID: 8300000, guid: a12d69e3e2eed1743b6b8c478e1b3851, type: 3}
+    - {fileID: 8300000, guid: 1c75ebd836648514fb294a7b0a5be09b, type: 3}
+    - {fileID: 8300000, guid: 0f1e94b8e2b0df54aaf16ccf67134802, type: 3}
+    - {fileID: 8300000, guid: 1fd2baf5ac3396742bc45beb42fa71de, type: 3}
+    - {fileID: 8300000, guid: cae56b795d9915c4da96f2d27b4814d6, type: 3}
+    - {fileID: 8300000, guid: b49e574f3e1d4fe4198322a598ec669a, type: 3}
+    - {fileID: 8300000, guid: 7f5b8eaf770967844a91239e355c8dc0, type: 3}
+    - {fileID: 8300000, guid: 41565c016e537954b900e12985938632, type: 3}
+    - {fileID: 8300000, guid: 9cfed4da9fc6a674db13c4e88adc069d, type: 3}
+  - AudioType: 6
+    Clip:
+    - {fileID: 8300000, guid: e39431020a2e4af498e6e96c839593b6, type: 3}
+    - {fileID: 8300000, guid: c4c1f0827c07f1847a79f5f97e48de4b, type: 3}
+    - {fileID: 8300000, guid: 3cd461506cf352444b5178607abaf5c1, type: 3}
+    - {fileID: 8300000, guid: 1825a47015f121f4db84794238a49da2, type: 3}
+    - {fileID: 8300000, guid: cdfb9cfb295bfbd4d8989e2954ccb443, type: 3}
+    - {fileID: 8300000, guid: de4a1a563be25a64c80b0429e35f8f84, type: 3}
+    - {fileID: 8300000, guid: 08d40cf0f8beb2547b837e74fed0fcad, type: 3}
+    - {fileID: 8300000, guid: e2d047f4fc046c546b26c5fe9c7ff448, type: 3}
+    - {fileID: 8300000, guid: f059cc43a4857a343be8d86e39c0b54a, type: 3}
+    - {fileID: 8300000, guid: 0cdbd8f932395ea48a328311b53a3f5a, type: 3}

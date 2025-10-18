@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d15ca180db70ad4bb5eacecd63c34bf, type: 3}
+  m_Name: StatesOfMatter_HindiAudio
+  m_EditorClassIdentifier: 
+  AudioList:
+  - AudioType: 0
+    Clip:
+    - {fileID: 8300000, guid: b35507e2541c9f7438b5f3540792509e, type: 3}
+  - AudioType: 1
+    Clip:
+    - {fileID: 8300000, guid: d1f5f8a80c61d3542a6c90e12cc0fc63, type: 3}
+  - AudioType: 2
+    Clip:
+    - {fileID: 8300000, guid: ac7e15d2b6e2a0641b08db0ee96f9bf3, type: 3}
+    - {fileID: 8300000, guid: 6c5369c77ef8aab4ca7030c151cc2d9f, type: 3}
+    - {fileID: 8300000, guid: 42ef2861a0168044387e852fce44ba41, type: 3}
+    - {fileID: 8300000, guid: 03b07cc6e6510a54fa3b1da1d576da3d, type: 3}
+    - {fileID: 8300000, guid: 12aeff2cc95478a408190555e0fc33cf, type: 3}
+    - {fileID: 8300000, guid: 8197d1fa7bbff464e8141a32e7a65fc0, type: 3}
+  - AudioType: 3
+    Clip:
+    - {fileID: 8300000, guid: d862a1408a2eb7e4dba7113aba8ab1d9, type: 3}
+    - {fileID: 8300000, guid: 88e5fe8ff1bdc2a45bb9f7ab7b98d0bf, type: 3}
+    - {fileID: 8300000, guid: d2c46de3fe2b7604bb59ea55c32e69ae, type: 3}
+    - {fileID: 8300000, guid: e1b993a98808a2f42a9786731720d61f, type: 3}
+    - {fileID: 8300000, guid: 0c7b044c084d5b3469c6c163620d2520, type: 3}
+  - AudioType: 5
+    Clip:
+    - {fileID: 8300000, guid: 90685f283fb066a448f104fbdc205ea9, type: 3}
+    - {fileID: 8300000, guid: 44768ca8bda42864c99ab22c9dd12497, type: 3}
+    - {fileID: 8300000, guid: 3dd46a62c1ed7624f97fc0d57ef69288, type: 3}
+    - {fileID: 8300000, guid: b1fb1921c750f1c4e99a8d7e0d6c4935, type: 3}
+    - {fileID: 8300000, guid: d66a43cc62b5a5244ad2bd1807c6e1e1, type: 3}
+  - AudioType: 6
+    Clip:
+    - {fileID: 8300000, guid: 4da22ed213545c042866cd88175fb4f9, type: 3}
+    - {fileID: 8300000, guid: cbd02e38a12f1ca43bf776e0c55ccd1e, type: 3}
+    - {fileID: 8300000, guid: 3f08efa985a92804baa00fde6e4a0681, type: 3}
+    - {fileID: 8300000, guid: c9df19ade025b0a4d9e9a5afb16ce0ac, type: 3}
+    - {fileID: 8300000, guid: 142107564d99c8e4eb08b1cbab5d5888, type: 3}
