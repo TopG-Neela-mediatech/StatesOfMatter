@@ -1,55 +1,57 @@
 using System;
-using TMKOC.StatesOfMatter;
 using UnityEngine;
 
-public class TutorialManager : MonoBehaviour
+namespace TMKOC.StatesOfMatter
 {
-    [SerializeField] private TutorialDataSO m_tutorialDataList;
-
-    private int currentIndex = 0;
-
-    public static event Action<TutorialData> OnNewDataLoaded;
-    public static event Action OnParticleSlideLoaded;
-
-
-    private void OnEnable()
+    public class TutorialManager : MonoBehaviour
     {
-        GameManager.OnTutorialStart += StartTutorial;
+        [SerializeField] private TutorialDataSO m_tutorialDataList;
 
-        GameManager.OnNextTutorialRequested += DisplayNextData;
-    }
+        private int currentIndex = 0;
 
-    private void OnDisable()
-    {
-        GameManager.OnTutorialStart -= StartTutorial;
+        public static event Action<TutorialData> OnNewDataLoaded;
+        public static event Action OnParticleSlideLoaded;
 
-        GameManager.OnNextTutorialRequested -= DisplayNextData;
-    }
 
-    private void StartTutorial()
-    {
-        currentIndex = 0;
-
-        DisplayNextData();
-    }
-
-    private void DisplayNextData()
-    {
-        if (currentIndex >= m_tutorialDataList.Length)
+        private void OnEnable()
         {
-            GameManager.Instance.InvokeTutorialEnd();
-            return;
+            GameManager.OnTutorialStart += StartTutorial;
+
+            GameManager.OnNextTutorialRequested += DisplayNextData;
         }
 
-        // get the data
-        TutorialData tutData = m_tutorialDataList.GetData(currentIndex);
-
-        if (tutData != null)
+        private void OnDisable()
         {
-            tutData.Index = currentIndex;
-            OnNewDataLoaded?.Invoke(tutData);
+            GameManager.OnTutorialStart -= StartTutorial;
+
+            GameManager.OnNextTutorialRequested -= DisplayNextData;
         }
 
-        currentIndex++;
+        private void StartTutorial()
+        {
+            currentIndex = 0;
+
+            DisplayNextData();
+        }
+
+        private void DisplayNextData()
+        {
+            if (currentIndex >= m_tutorialDataList.Length)
+            {
+                GameManager.Instance.InvokeTutorialEnd();
+                return;
+            }
+
+            // get the data
+            TutorialData tutData = m_tutorialDataList.GetData(currentIndex);
+
+            if (tutData != null)
+            {
+                tutData.Index = currentIndex;
+                OnNewDataLoaded?.Invoke(tutData);
+            }
+
+            currentIndex++;
+        }
     }
 }
