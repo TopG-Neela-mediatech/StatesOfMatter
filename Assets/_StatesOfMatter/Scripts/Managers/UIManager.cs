@@ -60,25 +60,32 @@ namespace TMKOC.StatesOfMatter
             AnimationController.OnEndAnimationFinished -= EnableGameEndPanels;
         }
 
-
         private bool endToggle = false;
 
-        private void EnableGameEndPanels(bool toggle) => endToggle = toggle;
+        private void EnableGameEndPanels(bool toggle)
+        {
+            endToggle = toggle;
+        }
 
         private void EnableGameEndPanels()
         {
             if (endToggle)
             {
-                m_playschoolController.SaveStarOnFinish();
+                //m_playschoolController.EnableFinalWinPanelAfterDelay();
+                m_playschoolController.EnableFinalWinPanelAfterDelay();
             }
+            else
+            {
+                //m_losePanel.SetActive(!endToggle);
 
-            m_losePanel.SetActive(!endToggle);
+                WinLosePanelScript.Instance.ShowRetryPopUp(GameManager.Instance.InvokeGameRestart);
+            }
         }
 
         private void DisablePanels()
         {
             m_winPanel.SetActive(false);
-            m_losePanel.SetActive(false);
+            //m_losePanel.SetActive(false);
         }
 
         private void ChangeCanvas()

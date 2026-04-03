@@ -91,7 +91,6 @@ namespace TMKOC.StatesOfMatter
 
         private void PlayEndingAnimation(bool isWon)
         {
-            Debug.Log("Check call");
 
             AnimatorStateInfo info;
             isGameOver = true;
@@ -99,7 +98,7 @@ namespace TMKOC.StatesOfMatter
             if (!isWon)
             {
                 m_animator.Play(Incorrect);
-                m_animator.SetBool("InCorrect", true);
+                //m_animator.SetBool("InCorrect", true);
 
                 info = m_animator.GetCurrentAnimatorStateInfo(0);
                 StartCoroutine(DelayedInvoke(info.length));
@@ -108,7 +107,6 @@ namespace TMKOC.StatesOfMatter
 
         private void PlayEndWinAnimation()
         {
-            Debug.Log("Check call");
 
             AnimatorStateInfo info;
             isGameOver = true;
@@ -116,7 +114,7 @@ namespace TMKOC.StatesOfMatter
             transform.DOLocalMove(moveInPos, moveTweenTime).OnComplete(() =>
             {
                 m_animator.Play(Correct);
-                m_animator.SetBool("IsCorrect", true);
+                //m_animator.SetBool("IsCorrect", true);
 
 
                 info = m_animator.GetCurrentAnimatorStateInfo(0);
@@ -133,6 +131,7 @@ namespace TMKOC.StatesOfMatter
             MoveOut(() =>
             {
                 OnEndAnimationFinished?.Invoke();
+                Debug.Log($"OnEndAnimation Called");
             });
         }
 

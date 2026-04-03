@@ -28,6 +28,8 @@ namespace TMKOC.StatesOfMatter
 
         private void Start()
         {
+            PlayschoolCommon.Instance.SpawnplayschoolWinLosePanel();
+
             CopyMatterList();
 
             if (_skipTutorial)
@@ -65,11 +67,9 @@ namespace TMKOC.StatesOfMatter
 
         public void OnCorrectDrag()
         {
-            Debug.Log("Correct Drag detected! Requesting next item...");
 
             if (IsGameFinished)
             {
-                Debug.Log("Game is finished ");
                 OnGameEnd?.Invoke(true);
             }
             else
@@ -80,16 +80,16 @@ namespace TMKOC.StatesOfMatter
 
         public void OnIncorrectDrag()
         {
-            Debug.Log("Incorrect Drag detected! Requesting next item...");
             OnIncorrectDrop?.Invoke();
         }
 
         public void InvokeGameRestart()
         {
-            Debug.Log("Game is Restarting");
             OnGameRestart?.Invoke();
 
             HandleRestart();
+
+            HelperGameCategoryDataSaver.AddAttempt(); //Save Add Attempt
         }
 
         public void InvokeNextTutorial()
@@ -146,7 +146,6 @@ namespace TMKOC.StatesOfMatter
 
         private void GameFinished()
         {
-            Debug.Log("Game is done");
             IsGameFinished = true;
         }
 

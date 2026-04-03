@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class PlayschoolController : MonoBehaviour
@@ -11,16 +12,14 @@ public class PlayschoolController : MonoBehaviour
     [SerializeField] private int _testID;
     [SerializeField] private GameObject finalTestPanel;
 
+    [SerializeField] private int _totalCountLevel = 5;
+
+
     private void Awake()
     {
-#if PLAYSCHOOL_MAIN
-            // assign varaible in this to get the  game ID from main app
-                _gameID =  PlayerPrefs.GetInt("currentGameId");
-                _testID =  PlayerPrefs.GetInt("currentTestId");
-#endif
-        _gameCategoryDataManager = new GameCategoryDataManager(_gameID, PlayerPrefs.GetString("currentGameName"));
-        _updateCategoryManager = new UpdateCategoryApiManager(_gameID);
-        _updateCategoryApiManagerTest = new UpdateCategoryApiManagerTest(_testID);
+        HelperGameCategoryDataSaver.Init(_totalCountLevel);
+
+        HelperGameCategoryDataSaver.LevelCompleted(0);
     }
 
     public void OnBackButtonPressed()
@@ -63,7 +62,7 @@ public class PlayschoolController : MonoBehaviour
         TestFinished();
     }
 
-    private void EnableFinalWinPanelAfterDelay()
+    public void EnableFinalWinPanelAfterDelay()
     {
 #if PLAYSCHOOL_MAIN
                     EffectParticleControll.Instance.SpawnGameEndPanel();

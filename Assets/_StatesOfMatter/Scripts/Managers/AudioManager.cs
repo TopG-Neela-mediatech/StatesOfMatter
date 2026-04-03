@@ -157,24 +157,36 @@ namespace TMKOC.StatesOfMatter
         /// <param name="overrideIfPlaying">If false, will not interrupt current audio; default is true</param>
         public float PlayVoiceover(TutorialAudio tutorialAudio, int index = -1, bool overrideIfPlaying = true)
         {
-            if (_isMute || _currentVoiceAudioSO == null)
+            if (_isMute)
                 return float.NaN;
 
-            // If audio is already playing and overrideIfPlaying is false, do nothing
-            if (!overrideIfPlaying && _voiceSource.isPlaying)
-                return _voiceSource.clip != null ? _voiceSource.clip.length : 0f;
+            float audioLength = 0f;
 
-            // Get clip
-            var clip = index == -1
-                ? _currentVoiceAudioSO.GetRandomAudioClip(tutorialAudio)
-                : _currentVoiceAudioSO.GetSpecificAudioClip(tutorialAudio, index);
+            if (index == -1)
+            {
+                string key = AudioMapper.Instance.GetRandomKeyFor(tutorialAudio);
+                if (key == "HandledViaCommonAudio")
+                {
+                    // Audio already played via specialized RuntimeAudioLoader method
+                    // We don't have the length for these, returning a default or 0
+                    return 0f;
+                }
+                else if (!string.IsNullOrEmpty(key))
+                {
+                    audioLength = RuntimeAudioLoader.Instance.PlayRuntimeAudio(key);
+                }
+            }
+            else
+            {
+                // For slides or other index-based audio
+                string key = AudioMapper.Instance.GetKeyByIndex("Slides", index);
+                if (!string.IsNullOrEmpty(key))
+                {
+                    audioLength = RuntimeAudioLoader.Instance.PlayRuntimeAudio(key);
+                }
+            }
 
-            if (clip == null)
-                return float.NaN;
-
-            _voiceSource.clip = clip;
-            _voiceSource.Play();
-            return clip.length;
+            return audioLength;
         }
 
         private IEnumerator PlayVoiceoverWithDelay(TutorialAudio tutorialAudio, float delay, int index = -1, bool overrideFlag = true)

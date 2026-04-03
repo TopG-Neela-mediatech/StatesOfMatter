@@ -16,8 +16,6 @@ public class DropZone : MonoBehaviour
     [Tooltip("If true, will use explicit slots as children of the grid.")]
     [SerializeField] private bool useSlots = false;
 
-    [SerializeField] private int totalCount = 5;
-
     [Tooltip("Explicit slots inside this zone (only used if UseSlots = true)")]
     [SerializeField] private RectTransform[] setPoints;
 
@@ -55,6 +53,8 @@ public class DropZone : MonoBehaviour
         if (useSlots && setPoints != null && setPoints.Length > 0)
         {
             Transform slot = setPoints[currentIndex++];
+            HelperGameCategoryDataSaver.LevelCompleted(currentIndex);
+
             if (slot.childCount == 0)
             {
                 draggable.transform.SetParent(slot, true);
@@ -104,12 +104,14 @@ public class DropZone : MonoBehaviour
         Debug.Log("Current index: " + currentIndex);
         Debug.Log("setPt Len-1 for 0 indexing: " + (setPoints.Length - 1));
 
+
         if (currentIndex >= setPoints.Length)
         {
             // full hogaya slots
             // can end game here
             DropZoneFull?.Invoke();
         }
+
     }
 
     private void ResetBoard()
@@ -122,7 +124,7 @@ public class DropZone : MonoBehaviour
     {
         for (int i = 0; i < setPoints.Length; i++)
         {
-            if(setPoints[i] != null && setPoints[i].childCount > 0)
+            if (setPoints[i] != null && setPoints[i].childCount > 0)
             {
                 Transform go = setPoints[i].GetChild(0);
                 Destroy(go.gameObject);
